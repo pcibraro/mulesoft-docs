@@ -210,6 +210,7 @@
 *** link:/release-notes/mule-agent-1.1.1-release-notes[Mule Agent 1.1.1 Release Notes]
 ** link:/release-notes/anypoint-exchange-release-notes[Anypoint Exchange Release Notes]
 ** link:/release-notes/cloudhub-release-notes[CloudHub Release Notes]
+*** link:/cloudhub/maintenance-and-upgrade-policy[Maintenance and Upgrade Policy]
 *** link:/release-notes/cloudhub-r40-migration-guide[CloudHub R40 Migration Guide]
 // ** link:/release-notes/arm-on-prem-release-notes[ARM Release Notes]
 // *** link:/release-notes/arm-on-prem-sep2015-release-notes[Anypoint Runtime Manager On-Premise Edition September 2015]
