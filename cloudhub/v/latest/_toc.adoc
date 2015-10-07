@@ -18,9 +18,9 @@
 **** On-Prem
 // something similar to //cloudhub/managing-cloudhub-applications[Managing CloudHub]
 *** Managing
-**** link:/cloudhub/cloudhub-console-overview[CloudHub Console Overview]
+**** link:/cloudhub/cloudhub-console-overview[ARM Console Overview]
 **** link:/cloudhub/alerts-and-notifications[Alerts and Notifications]
-**** link:/cloudhub/cloudhub-insight[CloudHub Insight]
+**** link:/cloudhub/cloudhub-insight[Insights]
 **** link:/cloudhub/viewing-log-data[Viewing Log Data]
 **** link:/cloudhub/managing-queues[Managing Queues]
 **** link:/cloudhub/managing-schedules[Managing Schedules]
@@ -37,7 +37,7 @@
 //agent stuff here? the entire tree
 ** link:/cloudhub/cloudhub-architecture[ARM Architecture]
 *** link:/cloudhub/cloudhub-networking-guide[CloudHub Networking Guide]
-*** link:/cloudhub/mule-esb-and-cloudhub[Mule and CloudHub]
+*** link:/cloudhub/mule-esb-and-cloudhub[Mule and ARM]
 ** link:/cloudhub/tutorials[Tutorials]
 *** link:/cloudhub/hello-world-on-cloudhub[Hello World on CloudHub]
 *** link:/cloudhub/building-an-https-service[Building an HTTPS Service]
