@@ -1,67 +1,65 @@
-= Working with Applications
-:keywords: cloudhub, cloudhub api, manage, cloud, enterprise, arm, runtime manager
-
-The application API allows you to list, create, update, and delete applications. All resources or methods that return or accept a type (except where noted) use the application JSON type. As an example, here's data you might receive, in JSON format, in response to a request to get an application:
-
-[source,json]
-----
-{
-  "domain":"hello",
-  "fullDomain":"hello.cloudhub.io",
-  "workers":1,
-  "hasFile":false,
-  "filename": "myapp.zip",
-  "muleVersion", "3.3.0"
-  "properties": {
-    "foo":"bar"
-  },
-  "status":"STARTED",
-  "workerStatuses":[
-     {
-       "id":"",
-       "host":"xxx.xxx.xxx.xxx",
-       "port":8081,
-       "status":"STARTED"
-     }
-   ],
-   "secureDataGateway": {
-     "connected": false
-   },
-}
-----
+= Applications
+:keywords: cloudhub, cloud, manage, arm, runtime manager, applications, on pemises, onprem, deploy, stop application, delete application
 
 
-== Application Properties
+An application is a Mule Application that is running on a Mule or API Gateway instance. The instance can be running in CloudHub, a server in an organization, or a group of servers. For server groups, an application deployed to the group runs on every server in the group. See <<Status States>> for possible values in the *Status* column.
 
-The following are the properties for applications.
+image:AMC_Applications.png[AMC_Applications]
 
-[width="100",cols="50,50",options="header"]
+From the *Applications* tab, by clicking an entry as shown, you can perform the following tasks:
+
+* <<Deploy an Application>>
+* <<Start, Stop, and Delete an Application>>
+* <<Manage an Application>>
+
+
+=== Deploy an Application
+
+When you deploy an application, you set it to run in CloudHub, or in a server or server group in your organization. Use Anypoint Studio to create an application as described in link:/cloudhub/hello-world-on-cloudhub[Hello World on CloudHub]. 
+
+In the Applications screen, click *Deploy application*: 
+
+image:AMC_DeployApp.png[AMC_DeployApp]
+
+Specify:
+
+* *Application Name* - An application name that consists of at least 3 characters in length with a maximum of 40 characters, containing only letters, numbers, or dashes, and cannot start with a dash.
++
+* *Deployment Target* - From the drop-down list, click *CloudHub*, a server name, or a server group for where you want to deploy your application. Deploying to CloudHub implies deploying to the cloud, whereas by selecting a server or group you're deploying an application to one or more servers in your organization's data center.
++
+If you click *CloudHub*, also supply:
++
+[cols=",",options="header",]
 |===
-|Property |Description
-|domain |The short domain name of the application.
-|fullDomain |The long domain name of the application.
-|hasFile |Whether or not an application file has been supplied for this application.
-|muleVersion |The Mule version for this application. Either 3.1.2 or 3.2.0.
-|properties |A set of environment variables that get set when the application is started.
-|workers |The number of workers associated with this application.
-|status |The status of the application. STARTED, DEPLOYING, UNDEPLOYED, DEPLOYED_FAILED are valid values.
-|secureDataGateway |Whether or not the data gateway is connected, and how long it's been connected.
+|Tab |Values
+|*Runtime* |Runtime version, worker size, workers, region, and restart options
+|*Properties* |Key value pairs
+|*Insight* |link:/cloudhub/cloudhub-insight[CloudHub Insight] values for metadata and replay
+|*Logging* |Log level and categories to include in logs
 |===
++
+* *Application File* - A zip file created by Anypoint Studio. To create the file in Studio, export your project from Studio as a zip file and import it into Anypoint Management Center.
 
-== Operations for Applications
+The bell icon in the upper right corner lets you manage notifications. For more information, see link:/cloudhub/alerts-and-notifications[Managing Notifications] in the link:/cloudhub/alerts-and-notifications[Alerts and Notifications] guide.
 
-The following is a summary of the operations you can perform on your application and the resource you specify for each.
+=== Start, Stop, or Delete an Application
 
-[width="100a",cols="33a,33a,33a",options="header"]
-|===
-|Operation |Resource |Description
-|link:/cloudhub/list-all-applications[GET] |/api/applications |Lists all applications.
-|link:/cloudhub/create-application[POST] |/api/applications |Creates an application.
-|link:/cloudhub/get-application[GET] |/api/applications/{domain} |Gets an application.
-|link:/cloudhub/deploy-application[POST] |/api/applications/{domain}/deploy |Deploys a Mule application file.
-|link:/cloudhub/update-application-metadata[PUT] |/api/applications/{domain} |Updates the metadata for an application.
-|link:/cloudhub/delete-application[DELETE] |/api/applications/{domain} |Deletes an application.
-|===
+To start, stop, or delete an application, click an application, and click the status down-arrow (the menus differ by Status):
 
-[TIP]
-Check out the link:https://anypoint.mulesoft.com/apiplatform/anypoint-platform/#/portals[API Portal] of the CloudHub API to see an interactive reference of all the supported resources, methods, required properties and expected responses.
+image:AMC_StopStartDeleteApp.png[AMC_StopStartDeleteApp]
+
+Click *Start*, *Stop*, or *Delete* as needed. The *Start* command restarts stopped applications, and if the application is Undeployed, sends the application's zip file to the server to start the application on the server.
+
+=== Manage an Application
+
+Managing an application lets you view a dashboard that lists Mule Messages, CPU use, memory use, and any of the categories of commands in the left navigation area, such as viewing logs, alerts, queues, change settings, debugging, and more.
+
+To manage an application, click *Manage Application*: 
+
+image:AMC_ManageApplication.png[AMC_ManageApplication]
+
+An example is (what displays may vary by permissions):
+
+image:ManageAppDashboard.png[ManageAppDashboard]
+
+For more information on these features, see the link:/cloudhub/managing-cloudhub-applications[Managing CloudHub Applications] page.

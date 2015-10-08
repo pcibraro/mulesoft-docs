@@ -12,7 +12,7 @@ To obtain an auto-generated proxy for your API version, you need to have API Ver
 To deploy a proxy application, you need a valid URL where your API is currently running. You also need one of the following:
 
 * *On-premises*: Access to an on-premises API Gateway instance that has been configured to pair with your Anypoint Platform for APIs organization. If you still need to configure your on-premises API Gateway, follow link:/anypoint-platform-for-apis/configuring-an-api-gateway[these instructions].
-* *Automatic On-premises deploy*: Valid permissions for both the CloudHub and the Anypoint Platform for APIs of your organization. Also, your on-premises server must be registered with the Anypoint Platform (see *Add a Server* in link:/cloudhub/managing-applications-and-servers-in-the-cloud-and-on-premises[Managing Applications and Servers in the Cloud and On Premises]).  +
+* *Automatic On-premises deploy*: Valid permissions for both the CloudHub and the Anypoint Platform for APIs of your organization. Also, your on-premises server must be registered with the Anypoint Platform (see *Add a Server* in link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises]).  +
 * *Automatic CloudHub deploy*: Valid permissions for both the CloudHub and the Anypoint Platform for APIs of your organization.
 * *Manual CloudHub deploy*: An Anypoint Platform account and a valid Anypoint Platform client ID and client secret to pair your deployment with your Anypoint Platform for APIs organization.
 
@@ -103,7 +103,7 @@ image:api-status-new-conf-green.png[api-status-new-conf-green]
 [NOTE]
 This procedure works with API Gateway 2.0 or above.
 
-. Register your server in Anypoint Management Center. To register your server, see the simplified instructions below, or the full instructions in the *Add a Server* section of link:/anypoint-platform-for-apis/copy-of-managing-applications-and-servers-in-the-cloud-and-on-premises[Managing Applications and Domains in the Cloud and On-Premises].
+. Register your server in Anypoint Management Center. To register your server, see the simplified instructions below, or the full instructions in the *Add a Server* section of link:/anypoint-platform-for-apis/copy-of-managing-servers-in-the-cloud-and-on-premises[Managing Servers in the Cloud and On-Premises].
 
 *Register a Server*
 

@@ -340,7 +340,7 @@ You must then run it from this location after completing the required steps in A
 
 === Obtaining the Token for Your Server
 
-For a full description of the steps outlined in this section, see the *Add a Server* section in link:/cloudhub/managing-applications-and-servers-in-the-cloud-and-on-premises[Managing Applications and Servers in the Cloud and On Premises].
+For a full description of the steps outlined in this section, see the *Add a Server* section in link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises].
 
 In your Anypoint Platform on-premises Edition installation, click *Applications* in the navigation bar and select your environment. Then, select *Servers* in the left-hand menu.
 

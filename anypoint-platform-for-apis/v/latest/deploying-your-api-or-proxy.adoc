@@ -47,7 +47,7 @@ Your APIkit project or proxy application should be saved as a deployable zip fil
 . Select the name of your application from the *Project* drop-down, and click *Browse...* to select a destination for your application file. Click *Finish* .
 
 [TIP]
-If your organization has On Premises Auto-Deploy enabled, and you have already configured your API Gateway for Auto-deployment, then you can also deploy your applications on premises link:/cloudhub/managing-applications-and-servers-in-the-cloud-and-on-premises[via the Anypoint Management Console].
+If your organization has On Premises Auto-Deploy enabled, and you have already configured your API Gateway for Auto-deployment, then you can also deploy your applications on premises link:/cloudhub/managing-servers-on-premises[via the Anypoint Management Console].
 
 
 === Deploying to API Gateway
@@ -117,7 +117,7 @@ If you wish to update your application at runtime, you can drop a new .zip ver
 This procedure works with API Gateway 2.0 and above.
 
 
-. Register your server in Anypoint Management Center. To register your server, see the simplified instructions below, or the full instructions in the *Add a Server* section of link:/cloudhub/managing-applications-and-servers-in-the-cloud-and-on-premises[Managing Applications and Domains in the Cloud and On-Premises].
+. Register your server in Anypoint Management Center. To register your server, see the simplified instructions below, or the full instructions in the *Add a Server* section of link:/cloudhub/managing-servers-on-premises[Managing Servers On-Premises].
 
 *Register a server*
 

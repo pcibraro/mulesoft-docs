@@ -1,4 +1,4 @@
-= Managing Servers in the Cloud and On Premises
+= Managing Servers On Premises
 :keywords: cloudhub, application, server, server group, on-premise, arm, runtime manager
 
 Through the Anypoint Runtime Manager, you can set up the properties of servers, server groups, and clusters that reside on premises in your organization. Once these are set up, ARM provides a single management interface where you can manage applications running in the cloud or on servers or groups of servers that are on premises within your data center. Applications that are on premises run on Mule Runtime instance(s) on a single server or a group of servers. For cluster information, see link:/cloudhub/creating-and-managing-clusters[Creating and Managing Clusters].
@@ -32,13 +32,13 @@ From the *Applications* tab, or by clicking an entry as shown, you can perform t
 
 === Servers Tab
 
-A server is a Mule or API Gateway instance that you register in the Anypoint Management Center console.
+A server is a Mule or API Gateway instance that you register in the Anypoint Runtime Manager console.
 
 image:AMC_Servers.png[AMC_Servers]
 
 From the *Servers* tab, or by clicking an entry as shown, you can perform these tasks:
 
-* <<Add a Server>> (registers the server with the Anypoint Management Center console)
+* <<Add a Server>> (registers the server with the Anypoint Runtime Manager console)
 * <<Start Mule or API Gateway>>
 * <<Create a Server Group>>
 * <<Add a Server to a Server Group>>
@@ -59,13 +59,13 @@ In order to perform on-premises server management, you need to have one of the f
 For details on configuring an API Gateway, see link:/anypoint-platform-for-apis/configuring-an-api-gateway[Configuring an API Gateway].
 
 [NOTE]
-This document assumes that you are using API Gateway 2.0 installed. The steps needed to complete server tasks differ between API Gateway 2.0 and previous versions. MuleSoft recommends that you always use the latest version of API Gateway.
+This document assumes that, when using the API Gateway, you are using version 2.0 or later. The steps needed to complete server tasks differ between API Gateway 2.0 and previous versions. MuleSoft recommends that you always use the latest version of API Gateway.
 
-The following tasks let you manage the Mule servers in your organization using CloudHub.
+The following tasks let you manage the Mule servers in your organization using ARM.
 
 Topics:
 
-* <<Add a Server>> (registers the server with the Anypoint Management Center console)
+* <<Add a Server>> (registers the server with the Anypoint Runtime Manager console)
 * <<Start Mule or API Gateway>>
 * <<Create a Server Group>>
 * <<Add a Server to a Server Group>>
@@ -78,18 +78,18 @@ Topics:
 
 To add a server:
 
-. Go to the *Servers* tab in CloudHub.
+. Go to the *Servers* tab in ARM.
 . If the environment already contains servers, click *Add Server* to add an additional server.
 +
-The *Servers* screen displays a command that you must run from each server or API Gateway on premise instance so that you can manage the server or on-premise gateway from CloudHub. Each command contains information unique to your organization.
+The *Servers* screen displays a command that you must run from each server or API Gateway on premise instance so that you can manage the server or on-premise gateway from ARM. Each command contains information unique to your organization.
 +
 image:empty_servers-add_server_1st_srv-CORR.COMM-REAL-2.png[empty_servers-add_server_1st_srv-CORR.COMM-REAL-2]
 +
-. Run the displayed command (listed below) to add each Mule server, or API Gateway (that runs on a server). Running this command enables the Mule server or API Gateway to communicate with the Anypoint Management Center. The key included in the `-H` parameter (partly redacted in the image above) is a token generated specifically for your Mule server or API Gateway to authenticate against Anypoint Management Center.
+. Run the displayed command (listed below) to add each Mule server, or API Gateway (that runs on a server). Running this command enables the Mule server or API Gateway to communicate with the Anypoint Runtime Manager. The key included in the `-H` parameter (partly redacted in the image above) is a token generated specifically for your Mule server or API Gateway to authenticate against Anypoint Runtime Manager.
 +
 To run this command:
 +
-.. In Anypoint Management Center, click *Copy* to copy the displayed command to your clipboard.
+.. In Anypoint Runtime Manager, click *Copy* to copy the displayed command to your clipboard.
 .. Open a terminal in the server where your Mule server or API Gateway resides.
 .. Go to the `bin` directory inside the Mule server or API Gateway root directory.
 .. Paste the command into your terminal.
@@ -130,7 +130,7 @@ The `amc_setup` command described above resides in `$MULE_HOME/bin`. If you do 
 /opt/mule-3.7.0/bin/amc_setup --mule-home /opt/mule-3.7.0 -H ...
 ----
 
-The `amc_setup` script actually invokes the link:/cloudhub/the-mule-agent[Mule agent] installation script, which has several useful parameters for configuring security and proxies. For details on the options, see *Installation Options* in link:/mule-agent/v/1.1.1/installing-mule-agent[Installing Mule Agent].
+The `amc_setup` script actually invokes the link:/cloudhub/the-mule-agent[Mule agent] installation script, which has several useful parameters for configuring security and proxies. For details on the available options, see *Installation Options* in link:/mule-agent/v/1.1.1/installing-mule-agent[Installing Mule Agent].
 
 ==== About the Server Registration Token
 
@@ -138,7 +138,7 @@ The registration token provided by Anypoint Management Console (included in the 
 
 === Create a Server Group
 
-A server group organizes servers into functional units such as for Accounting, Engineering, or Human Resources. The servers reside in your organization and are managed using CloudHub. A server group is a set of servers that act as a single deployment target. An application runs on one or more of the servers as you indicate when you deploy an application.
+A server group organizes servers into functional units such as for Accounting, Engineering, or Human Resources. The servers reside in your organization and are managed using the Runtime Manager. A server group is a set of servers that act as a single deployment target. An application runs on one or more of the servers as you indicate when you deploy an application.
 
 Click *Create Group*:
 
