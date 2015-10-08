@@ -1,5 +1,5 @@
 = Developing a CloudHub Application
-:keywords: cloudhub, cloud, Mule, api
+:keywords: cloudhub, cloud, Mule, api, arm, runtime manager
 
 The best way to learn how to develop a CloudHub application is to read the link:/cloudhub/getting-started-with-cloudhub[Getting Started with CloudHub] guide, which includes walkthroughs of basic concepts and examples to help get you familiar with the process of developing and deploying your applications in CloudHub. 
 

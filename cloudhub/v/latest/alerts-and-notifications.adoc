@@ -1,5 +1,5 @@
 = Alerts and Notifications
-:keywords: cloudhub, management, analytics
+:keywords: cloudhub, management, analytics, arm, runtime manager
 
 == Overview
 

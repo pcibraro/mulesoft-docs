@@ -1,5 +1,5 @@
 = Amazon RDS Support
-:keywords: cloudhub, security
+:keywords: cloudhub, security, arm, runtime manager
 
 You can easily integrate your CloudHub application with MySQL or Oracle using Amazon Relational Database Service (RDS). Refer to the link:http://aws.amazon.com/rds/[Amazon RDS documentation] to learn how to set up a new database.
 

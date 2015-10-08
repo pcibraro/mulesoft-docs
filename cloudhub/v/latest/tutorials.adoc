@@ -1,5 +1,5 @@
 = Tutorials
-:keywords: cloudhub, tutorial
+:keywords: cloudhub, tutorial, arm, runtime manager
 
 The following tutorials help you accomplish common tasks with CloudHub:
 

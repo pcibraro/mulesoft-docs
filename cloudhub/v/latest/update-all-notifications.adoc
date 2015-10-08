@@ -1,5 +1,5 @@
 = Update All Notifications
-:keywords: cloudhub, notifications, api
+:keywords: cloudhub, notifications, api, arm, runtime manager
 
 The PUT operation specified with the /api/notifications resource updates all notifications. Currently, the only update that can be applied is marking all notifications as read.
 

@@ -1,5 +1,5 @@
 = Anypoint Platform Administration
-:keywords: cloudhub, manage, administration
+:keywords: cloudhub, manage, administration, arm, runtime manager
 
 Your link:https://anypoint.mulesoft.com/#/signup[Anypoint Platform account] gives you access to both the services in the Anypoint Platform for APIs – for creating and managing APIs through their entire lifecycle – and to CloudHub – for deploying and managing applications.
 

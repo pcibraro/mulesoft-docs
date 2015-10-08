@@ -1,5 +1,5 @@
 = List All Notifications
-:keywords: cloudhub, cloudhub api, example, get, json
+:keywords: cloudhub, cloudhub api, example, get, json, arm, runtime manager
 
 The GET operation specified with the /api/notifications resource returns a list of all notifications for your account. The resulting JSON contains a list of notification objects.
 

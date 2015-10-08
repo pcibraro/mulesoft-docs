@@ -1,5 +1,5 @@
 = Deploying a CloudHub Application
-:keywords: cloudhub, cloud, deploy, manage
+:keywords: cloudhub, cloud, deploy, manage, arm, runtime manager
 
 You can deploy a CloudHub application from:
 

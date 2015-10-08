@@ -1,5 +1,5 @@
 = CloudHub Console Overview
-:keywords: cloudhub, cloud, manage
+:keywords: cloudhub, cloud, manage, arm, runtime manager
 
 The CloudHub Console provides point and click access to your integration applications running on CloudHub. Once logged in, you can perform the following operations:
 

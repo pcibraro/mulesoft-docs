@@ -1,5 +1,5 @@
 = CloudHub Insight
-:keywords: cloudhub, analytics, monitoring, insight, filter
+:keywords: cloudhub, analytics, monitoring, insight, filter, arm, runtime manager
 
 *CloudHub Insight* gives you in-depth visibility into business transactions and events on your Mule applications. By tracking everything your data does in an application, Insight makes information searchable and helps you find and recover from any errors that occurred during message processing and replay your transactions instantly.
 

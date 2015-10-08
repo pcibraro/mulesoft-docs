@@ -1,5 +1,5 @@
 = CloudHub Community and Support
-:keywords: cloudhub, cloud, troubleshooting
+:keywords: cloudhub, cloud, troubleshooting, arm, runtime manager
 
 Do you need to resolve an issue or need help with a project? Do you have feedback or an enhancement request? The CloudHub team is here to help.
 

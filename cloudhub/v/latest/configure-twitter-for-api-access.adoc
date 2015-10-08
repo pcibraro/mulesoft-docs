@@ -1,5 +1,5 @@
 = Configure Twitter for API Access
-:keywords: cloudhub, cloud, api, twitter
+:keywords: cloudhub, cloud, api, twitter, arm, runtime manager
 
 This document describes how to enable your Twitter account for API access. This is required for using the Twitter Connector.
 

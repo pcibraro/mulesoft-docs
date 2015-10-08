@@ -1,5 +1,5 @@
 = Introducing CloudHub
-:keywords: cloudhub, cloud, saas, applications, servers, clusters, sdg
+:keywords: cloudhub, cloud, saas, applications, servers, clusters, sdg, arm, runtime manager
 
 Integrate SaaS applications, Cloud services, and Enterprise applications in real-time. CloudHub is the world's first integration Platform as a Service (iPaaS). CloudHub is built on top of Mule, the most widely used integration platform. CloudHub lets you manage applications in the cloud and manage servers located in your organization.
 

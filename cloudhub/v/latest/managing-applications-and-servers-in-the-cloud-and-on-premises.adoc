@@ -1,7 +1,7 @@
-= Managing Applications and Servers in the Cloud and On Premises
-:keywords: cloudhub, application, server, server group, on-premise
+= Managing Servers in the Cloud and On Premises
+:keywords: cloudhub, application, server, server group, on-premise, arm, runtime manager
 
-With the Anypoint Management Center, CloudHub has gained an important new capability - in addition to managing your applications in the cloud, it can now manage applications, and servers, server groups, and clusters in your organization (on premises) as well. The Anypoint Management Center provides a single management interface where you can manage applications running in the cloud or on servers or groups of servers that are on premises within your data center. Applications that are on premises run on Mule Runtime instance(s) on a single server or a group of servers. For cluster information, see link:/cloudhub/creating-and-managing-clusters[Creating and Managing Clusters].
+Through the Anypoint Runtime Manager, you can set up the properties of servers, server groups, and clusters that reside on premises in your organization. Once these are set up, ARM provides a single management interface where you can manage applications running in the cloud or on servers or groups of servers that are on premises within your data center. Applications that are on premises run on Mule Runtime instance(s) on a single server or a group of servers. For cluster information, see link:/cloudhub/creating-and-managing-clusters[Creating and Managing Clusters].
 
 [TIP]
 ====
@@ -12,11 +12,11 @@ API Gateway 2.0 supports server auto configuration and a greatly simplified depl
 
 == Getting Started
 
-https://anypoint.mulesoft.com/#/signin[Log in to Anypoint Platform] and click *CloudHub*:
+https://anypoint.mulesoft.com/#/signin[Log in to the Anypoint Platform] and click *ARM*:
 
+///CHANGE IMAGE
 image:APStartScreen.png[APStartScreen]
 
-The Applications tab appears.
 
 === Applications Tab
 
@@ -47,76 +47,15 @@ From the *Servers* tab, or by clicking an entry as shown, you can perform these
 * <<Delete a Server>>
 * <<Delete a Server Group>>
 
-== Application Tasks
-
-The following sections describe the tasks you can perform for applications.
-
-Topics:
-
-* <<Deploy an Application>>
-* <<Start, Stop, and Delete an Application>>
-* <<Manage an Application>>
-
-=== Deploy an Application
-
-Deploy an application means that you want your application to run on CloudHub, or a server or server group in your organization. Use Anypoint Studio to create an application as described in link:/cloudhub/hello-world-on-cloudhub[Hello World on CloudHub]. 
-
-In the Applications screen, click *Deploy application*: 
-
-image:AMC_DeployApp.png[AMC_DeployApp]
-
-Specify:
-
-* *Application Name* - An application name that consists of at least 3 characters in length with a maximum of 40 characters, containing only letters, numbers, or dashes, and cannot start with a dash.
-+
-* *Deployment Target* - From the drop-down list, click *CloudHub*, a server name, or a server group for where you want to deploy your application. CloudHub means you're deploying to the cloud, whereas a server or group means you're deploying an application to one or more servers in your organization's data center.
-+
-If you click *CloudHub*, also supply:
-+
-[cols=",",options="header",]
-|===
-|Tab |Values
-|*Runtime* |Runtime version, worker size, workers, region, and restart options
-|*Properties* |Key value pairs
-|*Insight* |link:/cloudhub/cloudhub-insight[CloudHub Insight] values for metadata and replay
-|*Logging* |Log level and categories to include in logs
-|===
-+
-* *Application File* - A zip file created by Anypoint Studio. To create the file in Studio, export your project from Studio as a zip file and import it into Anypoint Management Center.
-
-The bell icon in the upper right corner lets you manage notifications. For more information, see link:/cloudhub/alerts-and-notifications[Managing Notifications] in the link:/cloudhub/alerts-and-notifications[Alerts and Notifications] guide.
-
-=== Start, Stop, or Delete an Application
-
-To start, stop, or delete an application, click an application, and click the status down-arrow (the menus differ by Status):
-
-image:AMC_StopStartDeleteApp.png[AMC_StopStartDeleteApp]
-
-Click *Start*, *Stop*, or *Delete* as needed. The *Start* command restarts stopped applications, and if the application is Undeployed, sends the application's zip file to the server to start the application on the server.
-
-=== Manage an Application
-
-Managing an application lets you view a dashboard that lists Mule Messages, CPU use, memory use, and any of the categories of commands in the left navigation area, such as viewing logs, alerts, queues, change settings, debugging, and more.
-
-To manage an application, click *Manage Application*: 
-
-image:AMC_ManageApplication.png[AMC_ManageApplication]
-
-An example is (what displays may vary by permissions):
-
-image:ManageAppDashboard.png[ManageAppDashboard]
-
-For more information on the features, see the link:/cloudhub/managing-cloudhub-applications[Managing CloudHub Applications] in the MuleSoft documentation set.
-
 == Server Tasks
 
 === Prerequisites
- 
+
 In order to perform on-premises server management, you need to have one of the following installed on your on-premises server:
 
  * Mule ESB – Version 3.6 or above
- * API Gateway Standalone – Version 2.0 or above   
- 
+ * API Gateway Standalone – Version 2.0 or above
+
 For details on configuring an API Gateway, see link:/anypoint-platform-for-apis/configuring-an-api-gateway[Configuring an API Gateway].
 
 [NOTE]

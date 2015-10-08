@@ -1,5 +1,5 @@
 = Update Application
-:keywords: cloudhub, notifications, update
+:keywords: cloudhub, notifications, update, arm, runtime manager
 
 The PUT operation specified with the `/api/notifications/{id}` resource updates a notification. Currently, the only update that can be applied is marking a notification as read.
 

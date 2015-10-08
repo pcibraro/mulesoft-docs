@@ -1,5 +1,5 @@
 = CloudHub Networking Guide
-:keywords: cloudhub, cluster, managing, monitoring
+:keywords: cloudhub, cluster, managing, monitoring, arm, runtime manager
 
 == Overview
 

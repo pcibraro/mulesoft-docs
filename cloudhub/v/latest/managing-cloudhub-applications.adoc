@@ -1,5 +1,5 @@
 = Managing CloudHub Applications
-:keywords: cloudhub, managing, monitoring, deploy
+:keywords: cloudhub, managing, monitoring, deploy, arm, runtime manager
 
 After you deploy an application to CloudHub, you can use CloudHub to monitor and manage your application at runtime. This page introduces basic management tools in the console for stopping, updating, and restarting your application. See the additional topics below for information about the console's runtime management tools. 
 

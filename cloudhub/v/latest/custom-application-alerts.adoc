@@ -1,5 +1,5 @@
 = Custom Application Alerts
-:keywords: cloudhub, monitoring, api
+:keywords: cloudhub, monitoring, api, arm, runtime manager
 
 == Prerequisites
 

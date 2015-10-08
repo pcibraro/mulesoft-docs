@@ -1,5 +1,5 @@
 = Get an Application
-:keywords: cloudhub, cloudhub api, manage, cloud, enterprise
+:keywords: cloudhub, cloudhub api, manage, cloud, enterprise, arm, runtime manager
 
 The GET operation specified with the `/api/applications/{domain}` resource retrieves an application, where `{domain}` is the application domain.
 

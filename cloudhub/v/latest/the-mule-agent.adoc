@@ -1,5 +1,5 @@
 = The Mule Agent
-:keywords: cloudhub, api, mule agent, plugin, enterprise, rest, websockets
+:keywords: cloudhub, api, mule agent, plugin, enterprise, rest, websockets, arm, runtime manager
 :license-info: Enterprise
 :version-info: 3.6.0 and later
 

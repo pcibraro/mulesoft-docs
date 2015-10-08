@@ -1,18 +1,18 @@
 = Viewing Log Data
-:keywords: cloudhub, logging, enhanced log management, r44
+:keywords: cloudhub, logging, enhanced log management, r44, arm, runtime manager
 
 CloudHub provides access to log data so that you can monitor your application and diagnose any potential issues. CloudHub stores log data in Universal Time (UTC); however, the console displays the log using your computer's local time zone. 
 
 == Enhanced Log Management
 
-Starting with the August 2015 (r44) release, CloudHub provides a new optional user interface and expanded storage capabilities for logging. With the new Enhanced Log Management setting, logs can be up to 100 MB or up to 30 days, whichever limit is hit first. 
+Starting with the August 2015 (r44) release, CloudHub provides a new optional user interface and expanded storage capabilities for logging. With the new Enhanced Log Management setting, logs can be up to 100 MB or up to 30 days, whichever limit is hit first.
 
 [IMPORTANT]
 ====
 *Important:*
 
 * Before using enhanced logging, download all existing logs. When you enable this feature, the verify prompt contains a link to download your logs to your computer. The logs are saved as a text file.
-* When you enable enhanced logging, CloudHub restarts your application, with link:https://docs.mulesoft.com/cloudhub/managing-cloudhub-applications#zero-downtime-updates-with-cloudhub[*zero downtime*]. 
+* When you enable enhanced logging, CloudHub restarts your application, with link:https://docs.mulesoft.com/cloudhub/managing-cloudhub-applications#zero-downtime-updates-with-cloudhub[*zero downtime*].
 * For new apps, enhanced log management is enabled by default. For existing apps, you must opt in to enable enhanced logging.
 ====
 

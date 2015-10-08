@@ -1,5 +1,5 @@
 = Managing Application Data Storage with Object Stores
-:keywords: cloudhub, object stores
+:keywords: cloudhub, object stores, arm, runtime manager
 
 CloudHub includes application data storage for each CloudHub application which is accessible through Mule's link:/mule-user-guide/v/3.7/mule-object-stores[ObjectStore] functionality. This storage can be used to store anything, but two of its main uses are:
 

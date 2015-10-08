@@ -1,4 +1,5 @@
 = Creating and Managing Clusters
+:keywords: cloudhub, connectors, arm, runtime manager, clusters
 
 Need more information on clusters? See 
 link:/mule-management-console/v/3.7/managing-mule-high-availability-ha-clusters[Managing Mule High Availability (HA) Clusters]

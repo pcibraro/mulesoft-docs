@@ -1,5 +1,5 @@
 = Update Application Metadata
-:keywords: cloudhub, api, update, metadata, workers, put
+:keywords: cloudhub, api, update, metadata, workers, put, arm, runtime manager
 
 The PUT method, specified with the `/api/applications/{domain}` resource (where `{domain}` is the application domain), updates your application metadata, including the number of workers and system properties. You can also use it to update an existing application. For information on how to update you application, see link:/cloudhub/managing-cloudhub-applications[Updating Your Application].
 

@@ -1,5 +1,5 @@
 = Salesforce Developer Account Setup
-:keywords: cloudhub, salesforce
+:keywords: cloudhub, salesforce, arm, runtime manager
 
 To set up a free developer Salesforce account:
 

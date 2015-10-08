@@ -1,5 +1,5 @@
 = CloudHub API
-:keywords: cloudhub, cloudhub api, manage, api, rest
+:keywords: cloudhub, cloudhub api, manage, api, rest, arm, runtime manager
 
 The CloudHub REST API provides a way for you to programmatically access much of CloudHub's functionality. It allows you to:
 

@@ -1,5 +1,5 @@
 = Secure Application Properties
-:keywords: cloudhub, jdbc, security
+:keywords: cloudhub, jdbc, security, arm, runtime manager
 
 CloudHub supports *secure application properties*, where the name of a property is visible in the console, but the value is not displayed or retrievable by a user. CloudHub resolves the property at runtime without exposing the sensitive information.
 

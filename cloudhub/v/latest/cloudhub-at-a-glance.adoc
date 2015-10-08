@@ -1,5 +1,5 @@
 = CloudHub at a Glance
-:keywords: cloudhub, cloud, api
+:keywords: cloudhub, cloud, api, arm, runtime manager
 
 Before getting started with CloudHub, it's important to understand some basic concepts. After this short overview, you can build your first CloudHub integration with the link:/cloudhub/hello-world-on-cloudhub[Hello World on CloudHub] tutorial!
 

@@ -1,5 +1,5 @@
 = Delete an Application
-:keywords: cloudhub, cloudhub api, manage, cloud, enterprise
+:keywords: cloudhub, cloudhub api, manage, cloud, enterprise, arm, runtime manager
 
 The DELETE operation, specified with the `/api/applications/{domain}` (where `{domain}` is the application domain), deletes the specified application.
 

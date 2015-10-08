@@ -1,5 +1,5 @@
 = Working with Logs
-:keywords: cloudhub, cloudhub api, logs, json, get
+:keywords: cloudhub, cloudhub api, logs, json, get, arm, runtime manager
 
 The logs API allows you to search your logs. All resources or methods that return or accept a type (except where noted) use the application JSON type. As an example, here's an example of what the result from a log search looks like.
 

@@ -1,5 +1,5 @@
 = Managing Queues
-:keywords: cloudhub, managing, monitoring, seda, vm
+:keywords: cloudhub, managing, monitoring, seda, vm, arm, runtime manager
 
 CloudHub includes a *Queues* tab in the left navigation menu where you can view and control any Virtual Machine (VM) or Staged Event-Driven Architecture (http://en.wikipedia.org/wiki/Staged_event-driven_architecture[SEDA]) queues within the flows of your deployed applications:
 

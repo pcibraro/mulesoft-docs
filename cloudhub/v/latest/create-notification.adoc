@@ -1,5 +1,5 @@
 = Create Notification
-:keywords: cloudhub, cloudhub api, manage, cloud, enterprise
+:keywords: cloudhub, cloudhub api, manage, cloud, enterprise, arm, runtime manager
 
 The POST operation specified with the /api/notifications resource creates a new CloudHub notification.
 
