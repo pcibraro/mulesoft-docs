@@ -36,7 +36,7 @@ Are you interested in building your own connector? Use the link:/anypoint-connec
 
 == Other Resources
 
-* link:/cloudhub/managing-cloudhub-applications[Managing CloudHub Applications] 
+* link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM]
 * link:/cloudhub/reference-materials[Reference Materials]
 * link:/cloudhub/community-and-support[Community and Support]
 * There are tons of APIs available. Check our MuleSoft Blog to see a link:

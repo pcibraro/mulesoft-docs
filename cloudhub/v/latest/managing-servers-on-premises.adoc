@@ -226,4 +226,4 @@ The following states appear in the *Status* column:
 == See Also
 
 * link:/cloudhub[CloudHub documentation]
-*  link:/cloudhub/managing-cloudhub-applications[Managing CloudHub Applications]
+*  link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM]

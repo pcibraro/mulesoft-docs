@@ -199,4 +199,4 @@ If an error occurs and the application cannot be deployed, the application statu
 == See Also
 
 * You can also deploy applications directly from link:/cloudhub/hello-world-on-cloudhub[Anypoint Studio] or the link:/cloudhub/command-line-tools[Command Line Tools]. A complete set of link:/cloudhub/cloudhub-api[REST APIs] are also available for deployment.
-* link:/cloudhub/managing-cloudhub-applications[Managing CloudHub Applications] contains more information on how to manage your CloudHub application, make changes, scale workers, and perform other application management tasks.
+* link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM] contains more information on how to manage your CloudHub application, make changes, scale workers, and perform other application management tasks.

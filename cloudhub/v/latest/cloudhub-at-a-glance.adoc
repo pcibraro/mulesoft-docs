@@ -51,5 +51,5 @@ Now that you understand the basics, you're ready to build your first CloudHub in
 
 You can also obtain more information about CloudHub and Anypoint Studio here:
 
-* link:/cloudhub/managing-cloudhub-applications[Managing CloudHub Applications]
+* link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM]
 * link:/mule-fundamentals/v/3.7/elements-in-a-mule-flow[Elements in a Mule Flow]

@@ -62,4 +62,4 @@ An example is (what displays may vary by permissions):
 
 image:ManageAppDashboard.png[ManageAppDashboard]
 
-For more information on these features, see the link:/cloudhub/managing-cloudhub-applications[Managing CloudHub Applications] page.
+For more information on these features, see the link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM] page.

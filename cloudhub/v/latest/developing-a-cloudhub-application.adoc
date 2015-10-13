@@ -1,7 +1,7 @@
 = Developing a CloudHub Application
 :keywords: cloudhub, cloud, Mule, api, arm, runtime manager
 
-The best way to learn how to develop a CloudHub application is to read the link:/cloudhub/getting-started-with-cloudhub[Getting Started with CloudHub] guide, which includes walkthroughs of basic concepts and examples to help get you familiar with the process of developing and deploying your applications in CloudHub. 
+When you create an app specifically for deploying to CloudHub, Mule's Integration Platform as a Service (iPaaS), there are a few special considerations to take into account. The best way to learn how to develop a CloudHub application is to read the link:/cloudhub/getting-started-with-cloudhub[Getting Started with CloudHub] guide, which includes walkthroughs of basic concepts and examples to help get you familiar with the process of developing and deploying your applications in CloudHub. 
 
 This page covers additional details relevant to deployment.
 
@@ -41,7 +41,7 @@ When developing an application that needs to access resources from inside your f
 
 == Accessing Third-Party APIs and Services
 
-CloudHub includes connectors for many third party applications, such as Salesforce, NetSuite, Twitter, and others. Anypoint Studio includes a few of the most common ones out of the box for developing with CloudHub, and the link:/anypoint-connector-devkit/v/3.7[Anypoint Connector DevKit] documentation provides more detail on how to find and deploy these connectors with your application.
+Mule includes connectors for many third party applications, such as Salesforce, NetSuite, Twitter, and others, these work both in Mule ESB and CloudHub. Anypoint Studio includes a few of the most common ones out of the box, you can also download more frome the link:/mule-fundamentals/v/3.7/anypoint-exchange[Anypoint Exchange]. The link:/anypoint-connector-devkit/v/3.7[Anypoint Connector DevKit] documentation provides more detail on how to find and deploy these connectors with your application.
 
 == Adding a UI for Your Application
 
@@ -50,4 +50,4 @@ CloudHub applications can have a web UI using HTML and JavaScript. The AJAX Modu
 == See Also
 
 * Learn about link:/cloudhub/deploying-a-cloudhub-application[Deploying a CloudHub Application]
-* After you develop and deploy your application, see link:/cloudhub/managing-cloudhub-applications[Managing CloudHub Applications] at runtime.
+* After you develop and deploy your application, see link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM] at runtime.
