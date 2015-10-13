@@ -1,16 +1,20 @@
-= CloudHub at a Glance
+= ARM at a Glance
 :keywords: cloudhub, cloud, api, arm, runtime manager
 
-Before getting started with CloudHub, it's important to understand some basic concepts. After this short overview, you can build your first CloudHub integration with the link:/cloudhub/hello-world-on-cloudhub[Hello World on CloudHub] tutorial!
+Before getting started with ARM and CloudHub, it's important to understand some basic concepts. After this short overview, you can build your first CloudHub integration with the link:/cloudhub/hello-world-on-cloudhub[Hello World on CloudHub] tutorial!
 
-== CloudHub and Anypoint Studio
+== ARM and CloudHub
 
-CloudHub is an integration platform as a service (iPaaS). It allows you to deploy sophisticated cross-cloud integration applications, create new APIs on top of existing data sources, integrate on-premise applications with cloud services, and much more. With Anypoint Studio – the user-friendly development tool – you can quickly build these integration applications and deploy to CloudHub with just a few clicks. This guide  helps you learn the basics and get started developing your first applications.
+Anypoint Runtime Manager includes the deployment and server management functionality provided by the Anypoint Platform, and allows you to manage servers and applications via Anypoint's graphical interface. CloudHub is a cloud-based integration platform as a service (iPaaS) -- the platform where the integration services are deployed. You use ARM to manage applications on CloudHub.
+
+== ARM and Anypoint Studio
+
+ARM allows you to deploy sophisticated cross-cloud integration applications, create new APIs on top of existing data sources, integrate on-premise applications with cloud services, and much more. With Anypoint Studio – the user-friendly development tool – you can quickly build these integration applications and deploy to the cloud with just a few clicks. This guide helps you learn the basics and get started developing your first applications.
 
 
 == Mule Flows
 
-The underlying configuration for your CloudHub integration is a "Mule Flow". Mule flows are made of individual components called Message Processors. These components act as the building blocks for your integration. As you build your flow with message processors, you are defining how "messages" – or data-content – flows from one component to the next.
+The underlying configuration for your CloudHub integration is a "Mule Flow". Mule flows are made of individual components called _message processors_. These components act as the building blocks for your integration. As you build your flow with message processors, you are defining how "messages" – or data-content – flows from one component to the next.
 
 As an example, a CloudHub integration can monitor, or poll, your Salesforce instance for any changes across all of your accounts. When a change occurs, the integration converts the changed data to a CSV file, and then uploads the file to your on-premises SFTP site. The Mule flow would contain three Message Processors and look like this:
 
@@ -39,9 +43,9 @@ While Anypoint DataMapper is technically a message processor, it deserves specia
 
 == Applications
 
-Flows are packaged into applications, and then deployed to CloudHub. It's nearly an automated process from within Mule Studio, as Anypoint Studio handles the packaging and upload of your application. You can build, deploy and run your integration without ever leaving Anypoint Studio.
+Flows are packaged into applications, and then deployed via ARM to CloudHub. It's nearly an automated process from within Mule Studio, as Anypoint Studio handles the packaging and upload of your application. You can build, deploy and run your integration without ever leaving Anypoint Studio.
 
-== CloudHub Management Console
+== Managing Applications and Servers in ARM
 
 Once your application is deployed to CloudHub's multi-tenant runtime, you can link:http://anypoint.mulesoft.com[log in] to the Anypoint Platform, and then go to the Runtime Manager. It allows you to triage problems, view logs, set up alerts, view dashboards, and more. Follow the simple steps in the link:/cloudhub/hello-world-on-cloudhub[Hello World] tutorial to setup your free Anypoint Platform account.
 
