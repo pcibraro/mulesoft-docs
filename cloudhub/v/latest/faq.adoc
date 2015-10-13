@@ -11,7 +11,7 @@ For more information, see link:http://blogs.mulesoft.org/introducing-integration
 
 === What is CloudHub?
 
-CloudHub a cloud-based integration platform as a service (iPaaS) that enables developers to integrate and orchestrate applications and services while giving operations the control and visibility they require for mission-critical demands, all without the need to install or manage middleware or hardware infrastructure. Read more about the CloudHub link:/cloudhub/cloudhub-architecture[architecture].
+CloudHub a cloud-based integration platform as a service (iPaaS) that enables developers to integrate and orchestrate applications and services while giving operations the control and visibility they require for mission-critical demands, all without the need to install or manage middleware or hardware infrastructure. Read more about the CloudHub link:/cloudhub/runtime-manager-architecture[architecture].
 
 === Where can I get Anypoint Studio?
 

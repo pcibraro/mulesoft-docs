@@ -223,6 +223,6 @@ Note that this issue occurs only when a flow _produces_ messages that need to be
 
 * See link:/cloudhub/deploying-a-cloudhub-application[Worker Sizing] for more information about deploying to multiple workers.
 * See link:/cloudhub/managing-queues[Managing Queues] for more information about viewing your queues at runtime.
-* Learn more about the link:/cloudhub/cloudhub-architecture[CloudHub architecture].
+* Learn more about the link:/cloudhub/runtime-manager-architecture[Runtime Manager Architecture].
 * Investigate the other link:/cloudhub/deploying-a-cloudhub-application[advanced options for deploying your CloudHub applications].
 * Refer to the complete references for link:/mule-user-guide/v/3.6/transaction-management[Transaction Management], the link:/mule-user-guide/v/3.7/vm-transport-reference[VM transport], and link:/mule-management-console/v/3.6/reliability-patterns[Reliability Patterns].

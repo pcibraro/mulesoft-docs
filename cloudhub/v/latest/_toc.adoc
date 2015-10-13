@@ -34,7 +34,7 @@
 *** link:/cloudhub/creating-and-managing-clusters[Creating and Managing Clusters]
 *** link:/cloudhub/sending-data-from-arm-to-external-monitoring-software[Sending Data from ARM to External Monitoring Software]
 //agent stuff here? the entire tree
-** link:/cloudhub/cloudhub-architecture[ARM Architecture]
+** link:/cloudhub/runtime-manager-architecture[Runtime Manager Architecture]
 *** link:/cloudhub/cloudhub-networking-guide[CloudHub Networking Guide]
 *** link:/cloudhub/mule-esb-and-cloudhub[Mule and ARM]
 ** link:/cloudhub/tutorials[Tutorials]

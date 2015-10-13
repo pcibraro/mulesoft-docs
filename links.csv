@@ -319,7 +319,7 @@ Working with Applications,CloudHub,latest,applications.adoc,/cloudhub/applicatio
 Building an HTTPS Service,CloudHub,latest,building-an-https-service.adoc,/cloudhub/building-an-https-service
 Anypoint Platform Administration,CloudHub,latest,cloudhub-administration.adoc,/cloudhub/cloudhub-administration
 CloudHub API,CloudHub,latest,cloudhub-api.adoc,/cloudhub/cloudhub-api
-CloudHub Architecture,CloudHub,latest,cloudhub-architecture.adoc,/cloudhub/cloudhub-architecture
+CloudHub Architecture,CloudHub,latest,runtime-manager-architecture.adoc,/cloudhub/runtime-manager-architecture
 CloudHub at a Glance,CloudHub,latest,cloudhub-at-a-glance.adoc,/cloudhub/cloudhub-at-a-glance
 CloudHub Console Overview,CloudHub,latest,cloudhub-console-overview.adoc,/cloudhub/cloudhub-console-overview
 CloudHub Fabric,CloudHub,latest,cloudhub-fabric.adoc,/cloudhub/cloudhub-fabric
