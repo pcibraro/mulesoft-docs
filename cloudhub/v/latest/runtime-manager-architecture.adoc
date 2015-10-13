@@ -37,7 +37,7 @@ The Runtime Management console is integrated into the link:https://anypoint.mule
 
 Administrator account holders can use the management console to add and manage other users in the organization, define user roles, and create and manage sandbox environments. 
 
-For more information about the console, see link:/cloudhub/cloudhub-console-overview[Runtime Management Console Overview]. For more information about using the console for account management, see link:/anypoint-platform-administration[Account Management].
+For more information about the console, see link:/cloudhub/arm-console-overview[Runtime Management Console Overview]. For more information about using the console for account management, see link:/anypoint-platform-administration[Account Management].
 
 === Platform Services
 
@@ -67,7 +67,7 @@ Each worker is a dedicated instance of Mule that runs your integration applicati
 [NOTE]
 Workers that use a link:https://aws.amazon.com/ec2/instance-types/#burst[fraction of a vCore] offer limited CPU and IO for smaller workloads.
 
-With link:/cloudhub/cloudhub-fabric[Fabric], you can also scale your applications horizontally by adding multiple workers and load distribution over queues. For more information about scaling workers, see link:/cloudhub/cloudhub-fabric[Worker Scaleout]. For more information about using persistent queues on CloudHub, see link:/cloudhub/cloudhub-fabric[Persistent Queues].
+With link:/cloudhub/fabric[Fabric], you can also scale your applications horizontally by adding multiple workers and load distribution over queues.
 
 === Global Worker Clouds
 
@@ -110,7 +110,7 @@ ARM supports updating your applications at runtime so end users of your HTTP API
 === Fabric
 
 Fabric provides scalability, workload distribution, and added reliability to CloudHub applications on a per-application basis. These capabilities are powered by CloudHub's scalable load-balancing service,
-link:/cloudhub/cloudhub-fabric#worker-scaleout[Fabric worker scaleout], and link:/cloudhub/cloudhub-fabric#persistent-queues[persistent queueing] features.
+link:/cloudhub/fabric#worker-scaleout[Fabric worker scaleout], and link:/cloudhub/fabric#persistent-queues[persistent queueing] features.
 
 ==== Worker Scale-Out and Data Center Redundancy
 
@@ -124,7 +124,7 @@ Persistent queues ensure zero message loss and allow you to distribute non-HTTP 
 
 Persistent queues also guarantee delivery of your messages; even if one or more workers or datacenters go down, persistent queues facilitate disaster recovery and provide resilience to hardware or application failures.
 
-For more details about worker scale-out and persistent queues, refer to link:/cloudhub/cloudhub-fabric[Fabric].
+For more details about worker scale-out and persistent queues, refer to link:/cloudhub/fabric[Fabric].
 
 == Security
 

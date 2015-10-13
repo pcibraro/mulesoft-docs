@@ -579,7 +579,7 @@ INFO 2013-11-19 11:10:00,947 [[training-example-1].connector.file.mule.default.r
 * Learn more about link:/mule-user-guide/v/3.6/batch-filters-and-batch-commit[batch commit].
 * Learn more about setting and removing link:/mule-user-guide/v/3.6/record-variable[record-level variables].
 * Learn more about link:/mule-user-guide/v/3.6/batch-processing-reference[MEL expressions] you can use to access batch processing data.
-* Read more about link:/cloudhub/cloudhub-fabric[CloudHub support for batch processing].
+* Read more about link:/cloudhub/fabric[Support for batch processing].
 * Learn more about link:/mule-user-guide/v/3.7/anypoint-connectors[Anypoint Connectors].
 * Learn more about link:/mule-user-guide/v/3.6/poll-reference[Polling and Watermarks].
 * Learn more about link:/mule-user-guide/v/3.7/datamapper-user-guide-and-reference[DataMapper].

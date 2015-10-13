@@ -131,11 +131,11 @@ CloudHub specifies this port for you and automatically load-balances your domain
 
 Additional tools for managing your applications:
 
-* link:/cloudhub/cloudhub-console-overview[CloudHub Console Overview]
+* link:/cloudhub/arm-console-overview[ARM Console Overview]
 * link:/cloudhub/managing-applications-and-servers-in-the-cloud-and-on-premises[Managing Applications and Servers in the Cloud and On Premises]
 * link:/cloudhub/cloudhub-administration[CloudHub Administration]
 * link:/cloudhub/alerts-and-notifications[Alerts and Notifications]
-* link:/cloudhub/cloudhub-fabric[CloudHub Fabric]
+* link:/cloudhub/fabric[Fabric] 
 * link:/cloudhub/cloudhub-insight[CloudHub Insight]
 * link:/cloudhub/managing-queues[Managing Queues]
 * link:/cloudhub/managing-schedules[Managing Schedules]

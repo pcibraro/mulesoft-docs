@@ -609,7 +609,7 @@ INFO 2013-11-19 11:10:00,947 [[training-example-1].connector.file.mule.default.r
 
 * Learn more about link:/mule-user-guide/v/3.7/batch-processing-reference[MEL expressions] you can use to access batch processing data.
 
-* Read more about link:/cloudhub/cloudhub-fabric[CloudHub support for batch processing].
+* Read more about link:/cloudhub/fabric[CloudHub support for batch processing].
 
 * Learn more about link:/mule-user-guide/v/3.7/anypoint-connectors[Anypoint Connectors].
 

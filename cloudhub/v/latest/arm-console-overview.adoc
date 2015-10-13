@@ -1,30 +1,30 @@
-= CloudHub Console Overview
+= ARM Console Overview
 :keywords: cloudhub, cloud, manage, arm, runtime manager
 
-The CloudHub Console provides point and click access to your integration applications running on CloudHub. Once logged in, you can perform the following operations:
+The Runtime Manager Console provides point and click access to your integration applications running on CloudHub and on premises. Once logged in, you can perform the following operations:
 
 * Create and deploy a new application
-* Add a server in your organization's on premises to run an application
+* Register an on premises server in your organization, and then uses to run an application
 * Create server groups
-* Manage an existing CloudHub application
+* Manage an existing application
 * View application log data
 * Monitor message statistics for your application
 
-Before accessing the CloudHub Console, you must first link:/anypoint-platform-administration/creating-an-account[create an account]. After you have an account, you can log into the Anypoint Platform from the link:https://anypoint.mulesoft.com[Anypoint PLatform login page].
+Before accessing the Runtime Manager Console, you must first link:/anypoint-platform-administration/creating-an-account[create an account]. After you have an account, you can log into the Anypoint Platform from the link:https://anypoint.mulesoft.com[Anypoint PLatform login page].
 
 == Dashboard Overview
 
-When you first log into the Anypoint Platform, click *CloudHub* from the top menu:
+When you first log into the Anypoint Platform, click *Runtime Manager* from the top menu:
 
 image:APStartScreen.png[APStartScreen]
 
-You then see the *Applications* menu where you can get a quick view of the applications that are currently deployed and running for your account. Click an entry to display additional information (as shown below), or click *Manage Application* to see the CloudHub dashboard and the detailed page for the application:
+You then see the *Applications* menu where you can get a quick view of the applications that are currently deployed and running for your account. Click an entry to display additional information (as shown below), or click *Manage Application* to see the Runtime Manager dashboard and the detailed page for the application:
 
 image:AMC_ManageApplication.png[AMC_ManageApplication]
 
-Creating an application is the first step to link:/cloudhub/deploying-a-cloudhub-application[Deploying a CloudHub Application]. Each application must have a unique application domain. If you use the link:/cloudhub/command-line-tools[Command Line Tools] or Anyooint Studio, you do not need to perform this step using the console. After you create at least one application, you can see your applications listed here, including the number of transactions and the percentage of CPU usage over the past hour.
+Before you can deploy, you must first create an application. Each application must have a unique application domain. If you use the link:/cloudhub/command-line-tools[Command Line Tools] or Anyooint Studio, you do not need to perform this step using the console. After you create at least one application, you can see your applications listed here, including the number of transactions and the percentage of CPU usage over the past hour.
 
-You can also investigate the Servers menu. For more information, see link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises.] You can use servers in your organization to run applications that you manage with CloudHub. In addition, you can create groups of servers to run an application and manage the server group from CloudHub.
+You can also investigate the Servers menu. For more information, see link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises.] You can use servers in your organization to run applications that you manage with ARM. In addition, you can create groups of servers to run an application and manage the server group from ARM.
 
 Next to each application name, you can see an icon that represents the current status of the application.  The meaning of the status icons is summarized below:
 

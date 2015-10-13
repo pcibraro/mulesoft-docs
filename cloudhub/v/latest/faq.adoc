@@ -25,7 +25,7 @@ For specific pricing, please reach out to your account executive, your account d
 
 === What is a Worker?
 
-Applications that expose real time services or APIs run on one or more "workers". Each worker is an instance of Mule that runs your integration applications. See link:/cloudhub/cloudhub-fabric[CloudHub Fabric] for details of how workers can be shared or doubled to scale your application and provide high availability.
+Applications that expose real time services or APIs run on one or more "workers". Each worker is an instance of Mule that runs your integration applications. See link:/cloudhub/fabric[Fabric] for details of how workers can be shared or doubled to scale your application and provide high availability.
 
 === What is an Integration Application?
 

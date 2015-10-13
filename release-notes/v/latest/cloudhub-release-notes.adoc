@@ -195,7 +195,7 @@ Read our FAQ about Anypoint Platform for APIs and CloudHub unification
 
 == R37 - March 8, 2014
 
-* Performance improvements for link:/cloudhub/cloudhub-fabric[persistent queues].
+* Performance improvements for link:/cloudhub/fabric[persistent queues].
 
 == R36 - February 1, 2014
 
@@ -210,7 +210,7 @@ Read our FAQ about Anypoint Platform for APIs and CloudHub unification
 
 == R34 - November 2, 2013
 
-* New link:/cloudhub/deploying-a-cloudhub-application[worker sizing] capabilities for accounts that have link:/cloudhub/cloudhub-fabric[CloudHub Fabric] enabled.
+* New link:/cloudhub/deploying-a-cloudhub-application[worker sizing] capabilities for accounts that have link:/cloudhub/fabric[Fabric] enabled.
 * Support for link:/cloudhub/worker-monitoring[worker monitoring and automatic restarts], including a link:/cloudhub/alerts-and-notifications[new alert type] based on a nonresponsive worker.
 * Support for link:/cloudhub/secure-application-properties[secure environment variables].
 
@@ -220,7 +220,7 @@ Read our FAQ about Anypoint Platform for APIs and CloudHub unification
 
 == R32 - August 26, 2013
 
-* Support for link:/cloudhub/cloudhub-fabric[persistent queuing].
+* Support for link:/cloudhub/fabric[persistent queuing].
 * Bug fixes for sandbox environments, scheduling, and logging.
 
 == R31 - July 20, 2013
