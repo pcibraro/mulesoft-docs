@@ -125,7 +125,7 @@ Let's take a quick tour of MuleSoft's Anypoint Platform and its related products
 
 |image:CH_insight.png[CH_insight]
 
-|*link:/cloudhub/cloudhub-insight[CloudHub Insight]* tracks everything your data does in an application deployed to CloudHub. Insight makes information searchable and helps you find and recover from any errors that occurred during message processing.
+|*link:/cloudhub/runtime-manager-insight[Insight]* tracks everything your data does in an application deployed to CloudHub. Insight makes information searchable and helps you find and recover from any errors that occurred during message processing.
 
 |image:AnypointAPI_manager.png[AnypointAPI_manager]
 

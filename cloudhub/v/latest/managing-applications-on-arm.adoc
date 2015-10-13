@@ -136,7 +136,7 @@ Additional tools for managing your applications:
 * link:/cloudhub/cloudhub-administration[CloudHub Administration]
 * link:/cloudhub/alerts-and-notifications[Alerts and Notifications]
 * link:/cloudhub/fabric[Fabric] 
-* link:/cloudhub/cloudhub-insight[CloudHub Insight]
+* link:/cloudhub/runtime-manager-insight[Insight]
 * link:/cloudhub/managing-queues[Managing Queues]
 * link:/cloudhub/managing-schedules[Managing Schedules]
 * link:/cloudhub/managing-application-data-with-object-stores[Managing Application Data with Object Stores]

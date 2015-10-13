@@ -1,9 +1,9 @@
-= CloudHub Insight
+= Runtime Manager Insight
 :keywords: cloudhub, analytics, monitoring, insight, filter, arm, runtime manager
 
-*CloudHub Insight* gives you in-depth visibility into business transactions and events on your Mule applications. By tracking everything your data does in an application, Insight makes information searchable and helps you find and recover from any errors that occurred during message processing and replay your transactions instantly.
+*Insight* gives you in-depth visibility into business transactions and events on your Mule applications. By tracking everything your data does in an application, Insight makes information searchable and helps you find and recover from any errors that occurred during message processing and replay your transactions instantly.
 
-CloudHub Insight helps you answer questions about your integrated apps, such as:
+Insight helps you answer questions about your integrated apps, such as:
 
 * What happened with a particular transaction or synchronization?
 * When did the transaction occur? How long did it take?
@@ -12,14 +12,14 @@ CloudHub Insight helps you answer questions about your integrated apps, such as:
 
 Using the *Insight Dashboard*, you can view events that occur within the flows that handle your business transactions. Further, you can drill down into event-related data to access information that can help you analyze the root cause of failures, isolate performance bottlenecks, and test for compliance with company procedures.
 
-By default CloudHub tracks the most recent 100,000 events which occurred within your application. To arrange to track more, you can file a claim in the MuleSoft link:/cloudhub/community-and-support[support portal].
+By default, CloudHub tracks the most recent 100,000 events which occurred within your application. To arrange to track more, you can file a claim in the MuleSoft link:/cloudhub/community-and-support[support portal].
 
 [IMPORTANT]
-CloudHub Insight does not support visibility into link:/mule-user-guide/v/3.6/batch-processing[batch processing].
+Insight does not support visibility into link:/mule-user-guide/v/3.6/batch-processing[batch processing].
 
-== Enabling CloudHub Insight
+== Enabling Insight
 
-To track, aggregate, and store Mule server events by default, CloudHub Insight requires some processing and network overhead. Complete the following procedure to enable Insight to track the events your Mule servers generate. 
+To track, aggregate, and store Mule server events by default, Insight requires some processing and network overhead. Complete the following procedure to enable Insight to track the events your Mule servers generate. 
 
 . Log in to your Anypoint Platform account.
 . Click an application and in the details menu, click *Manage Application*.
@@ -114,7 +114,7 @@ The *default settings* of the events filter depend upon your CloudHub user role 
 
 == Diagnosing Problems and Replaying Transactions
 
-CloudHub Insight's *Message Replay* feature enables advanced error recovery. When you encounter a failed transaction (as displayed on Insight's dashboard), you can diagnose the problem, fix the root issue, then replay the transaction that failed. The following example demonstrates this functionality.
+Insight's *Message Replay* feature enables advanced error recovery. When you encounter a failed transaction (as displayed on Insight's dashboard), you can diagnose the problem, fix the root issue, then replay the transaction that failed. The following example demonstrates this functionality.
 
 ==== Transaction Failed
 
@@ -142,4 +142,4 @@ image:CH_replay-transaction-replayed.png[CH_replay-transaction-replayed]
 
 * link:/mule-user-guide/v/3.6/business-events[Configure business events] in your application.
 * Read more about viewing log data.
-* Read more about CloudHub Insight on our link:http://blogs.mulesoft.org/announcing-cloudhub-insight-real-time-visibility-message-replay-and-root-cause-analysis/[MuleSoft Blog].
+* Read more about Insight on our link:http://blogs.mulesoft.org/announcing-cloudhub-insight-real-time-visibility-message-replay-and-root-cause-analysis/[MuleSoft Blog].

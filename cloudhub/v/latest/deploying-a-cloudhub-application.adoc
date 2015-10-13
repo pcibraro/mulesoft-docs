@@ -153,7 +153,7 @@ Note that you can flag application properties as secure so that their values are
 
 === Insight Tab
 
-The Insight tab lets you specify metadata options for the Insight analytics feature. For more information, see the link:/cloudhub/cloudhub-insight[CloudHub Insight] document.
+The Insight tab lets you specify metadata options for the Insight analytics feature. For more information, see the link:/cloudhub/runtime-manager-insight[Insight] document.
 
 image:CHInsightTab.png[CHInsightTab]
 

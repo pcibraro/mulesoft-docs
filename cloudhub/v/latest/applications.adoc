@@ -34,7 +34,7 @@ If you click *CloudHub*, also supply:
 |Tab |Values
 |*Runtime* |Runtime version, worker size, workers, region, and restart options
 |*Properties* |Key value pairs
-|*Insight* |link:/cloudhub/cloudhub-insight[CloudHub Insight] values for metadata and replay
+|*Insight* |link:/cloudhub/runtime-manager-insight[Insight] values for metadata and replay
 |*Logging* |Log level and categories to include in logs
 |===
 +
