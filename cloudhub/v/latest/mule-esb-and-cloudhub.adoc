@@ -28,7 +28,7 @@ CloudHub does not guarantee that writing to disk  survives hardware failures. In
 
 Mule ESB offers high availability capabilities through the clustering of Mule instances with link:/mule-user-guide/v/3.6/mule-high-availability-ha-clusters[distributed shared memory]. This shared memory is used to provide persistent VM queues, transactions, and cluster-wide data storage.
 
-CloudHub provides high availability through link:/cloudhub/cloudhub-fabric[Fabric].  Fabric provides a combination of load balancing, persistent message queues, and horizontal scaleout. In addition, the platform also actively monitors services and workers for problems. For example, in the case of hardware failure, CloudHub auto-migrates the application to a different worker using link:/cloudhub/managing-cloudhub-applications[CloudHub zero downtime updates], minimizing down time.
+CloudHub provides high availability through link:/cloudhub/cloudhub-fabric[Fabric].  Fabric provides a combination of load balancing, persistent message queues, and horizontal scaleout. In addition, the platform also actively monitors services and workers for problems. For example, in the case of hardware failure, CloudHub auto-migrates the application to a different worker using link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM], minimizing down time.
 
 == Logging
 

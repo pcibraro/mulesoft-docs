@@ -350,7 +350,7 @@ Working with Logs,CloudHub,latest,logs.adoc,/cloudhub/logs
 Maintenance and Upgrade Policy,CloudHub,latest,maintenance-and-upgrade-policy.adoc,/cloudhub/maintenance-and-upgrade-policy
 Managing Application Data Storage with Object Stores,CloudHub,latest,managing-application-data-with-object-stores.adoc,/cloudhub/managing-application-data-with-object-stores
 Managing Applications and Servers in the Cloud and On Premises,CloudHub,latest,managing-applications-in-the-cloud-and-on-premises.adoc,/cloudhub/managing-applications-in-the-cloud-and-on-premises
-Managing CloudHub Applications,CloudHub,latest,managing-cloudhub-applications.adoc,/cloudhub/managing-cloudhub-applications
+Managing CloudHub Applications,CloudHub,latest,managing-applications-on-arm.adoc,/cloudhub/managing-applications-on-arm
 Managing Queues,CloudHub,latest,managing-queues.adoc,/cloudhub/managing-queues
 Managing Schedules,CloudHub,latest,managing-schedules.adoc,/cloudhub/managing-schedules
 Mule Agent Architecture,CloudHub,latest,mule-agent-architecture.adoc,/cloudhub/mule-agent-architecture

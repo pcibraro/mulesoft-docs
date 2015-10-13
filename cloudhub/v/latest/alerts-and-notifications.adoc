@@ -91,4 +91,4 @@ The following properties are available and can be used in the alert Email to, Su
 == See Also
 
 * Check out the link:/cloudhub/custom-application-alerts[Custom Application Alerts] tutorial.
-* Read more about link:/cloudhub/managing-cloudhub-applications[Managing CloudHub Applications].
+* Read more about link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM].
