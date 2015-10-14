@@ -1,7 +1,7 @@
 = Getting Started with Connectors
 :keywords: cloudhub, connectors, tutorial, arm, runtime manager
 
-This tutorial follows link:/cloudhub/getting-started-with-connectors[Hello World] as the second installment in the CloudHub Getting Started Guide. It introduces the Twitter Connector, and describes additional CloudHub concepts. After completing this tutorial, you can see how to leverage Anypoint™ Connectors for a wide array of integration solutions with CloudHub.
+This tutorial follows link:/cloudhub/hello-world-on-cloudhub[Hello World] as the second installment in the Runtime Manager Getting Started Guide. It introduces the Twitter Connector, and describes additional CloudHub concepts. After completing this tutorial, you can see how to leverage Anypoint™ Connectors for a wide array of integration solutions with CloudHub.
 
 This tutorial takes about 45 minutes and helps you:
 
