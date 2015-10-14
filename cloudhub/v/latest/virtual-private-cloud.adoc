@@ -1,7 +1,7 @@
 = Virtual Private Cloud
 :keywords: cloudhub, vpc, ipsec, ssl, openvpn, arm, runtime manager
 
-CloudHub's Virtual Private Cloud (VPC) enables you to connect to your corporate data centers – whether on-premises or in other clouds – as if they were all part of a single, private network. You can configure these networks to use IPsec or SSL and create them at hardware or software levels.
+CloudHub – the Anypoint Platform's iPaaS (Integration Platform as a Service) solution – includes the Virtual Private Cloud (VPC) feature, that enables you to connect to your corporate data centers – whether on-premises or in other clouds – as if they were all part of a single, private network. You can configure these networks to use IPsec or SSL and create them at hardware or software levels.
 
 == How VPC Works
 
