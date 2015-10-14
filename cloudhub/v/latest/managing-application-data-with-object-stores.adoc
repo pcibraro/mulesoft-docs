@@ -1,7 +1,7 @@
 = Managing Application Data Storage with Object Stores
 :keywords: cloudhub, object stores, arm, runtime manager
 
-CloudHub includes application data storage for each CloudHub application which is accessible through Mule's link:/mule-user-guide/v/3.7/mule-object-stores[ObjectStore] functionality. This storage can be used to store anything, but two of its main uses are:
+The Anypoint Runtime Manager (ARM) includes application data storage for each application which is accessible through Mule's link:/mule-user-guide/v/3.7/mule-object-stores[ObjectStore] functionality. This storage can be used to store anything, but two of its main uses are:
 
 * Storing synchronization state:  Your application may need to keep track of the last synchronized record, so that the next time it synchronizes, it can resume where it left off.
 * OAuth tokens:  OAuth enabled connectors can store tokens inside an ObjectStore with a few lines of configuration code.
@@ -10,7 +10,7 @@ Your application can also store custom integration data as well, within the limi
 
 == Storing and Retrieving Data
 
-The easiest way to work with application data inside from your Mule flows is by using the link:http://mulesoft.github.io/objectstore-connector/1.3.3/apidocs/mule/objectstore-config.html[Object Store module]. It provides functions to store, retrieve, list, and remove data from the CloudHub ObjectStore.
+The easiest way to work with application data inside from your Mule flows is by using the link:http://mulesoft.github.io/objectstore-connector/1.3.3/apidocs/mule/objectstore-config.html[Object Store module]. It provides functions to store, retrieve, list, and remove data from the ObjectStore.
 
 To install this Module into Anypoint Studio, link:/mule-user-guide/v/3.7/installing-extensions[follow these instructions] and select the Object Store module for installation.
 
@@ -26,7 +26,7 @@ image:applicationdata.png[applicationdata]
 
 == Semantics and Storage Limits
 
-The CloudHub object store provides read-after-write consistency and the last write wins in terms of updates. 
+The object store provides read-after-write consistency and the last write wins in terms of updates. 
 
 Additionally, it places these limits on your data:
 
@@ -37,4 +37,4 @@ Additionally, it places these limits on your data:
 
 == Advanced Information
 
-Internally, Mule has several different types of object stores. CloudHub provides an implementation of the user defined object store. This is for runtime information about your application, such as those use cases mentioned above. If you wish to access this object store directly, it can be found internally in the Mule Registry under the `_defaultUserObjectStore`. The Object Store module and connectors use this store to store all their data by default.
+Internally, Mule has several different types of object stores. The Runtime Manager provides an implementation of the user defined object store. This is for runtime information about your application, such as those use cases mentioned above. If you wish to access this object store directly, it can be found internally in the Mule Registry under the `_defaultUserObjectStore`. The Object Store module and connectors use this store to store all their data by default.

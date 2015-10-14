@@ -1,7 +1,7 @@
 = Managing Schedules
 :keywords: schedules, cloudhub, polling, arm, runtime manager
 
-The CloudHub console includes a *Schedules* tab in the left navigation menu where you can view and control any polling elements within the flows of your deployed applications. CloudHub automatically detects the polling elements from within your flows and lists them on the Schedules tab. On this tab, you can select the polling elements and enable or disable them, change the polling frequency, or run them immediately – all during runtime, without making any changes in the underlying application.
+The Anypoint Runtime Manager (ARM) console includes a *Schedules* tab in the left navigation menu where you can view and control any polling elements within the flows of your deployed applications. ARM automatically detects the polling elements from within your flows and lists them on the Schedules tab. On this tab, you can select the polling elements and enable or disable them, change the polling frequency, or run them immediately – all during runtime, without making any changes in the underlying application.
 
 == Use Cases
 
@@ -14,7 +14,7 @@ The Schedules tab is especially useful for the following use cases:
 
 == Viewing Application Schedules in the Console
 
-To use the scheduling feature in CloudHub, deploy an application that includes one or more polling elements. For example, the application illustrated below includes two simple flows, each with a polling scope.
+To use the scheduling feature in ARM, deploy an application that includes one or more polling elements. For example, the application illustrated below includes two simple flows, each with a polling scope.
 
 [tabs]
 ------
@@ -47,13 +47,13 @@ http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/m
 ....
 ------
 
-Because CloudHub synchronizes your schedules automatically, overriding any synchronize property set on the flows containing the polling scopes, there is no need to do any other special configuration. 
+Because ARM synchronizes your schedules automatically, overriding any synchronize property set on the flows containing the polling scopes, there is no need to do any other special configuration. 
 
-Once it is deployed, select the application in your CloudHub console, and click *Schedules* in the left navigation menu. CloudHub lists the polling elements in your application in the order that they appear in your application: 
+Once it is deployed, select the application in your Runtme Manager console, and click *Schedules* in the left navigation menu. ARM lists the polling elements in your application in the order that they appear in your application:
 
 image:SchedulesView.png[SchedulesView]
 
-*Note*: The name of each element is determined by the `doc:name` attribute in the polling scopes, if you add one in the XML. If you do not specify a `doc:name`, then CloudHub applies the name, *yourFlowname Poll*.
+*Note*: The name of each element is determined by the `doc:name` attribute in the polling scopes, if you add one in the XML. If you do not specify a `doc:name`, then ARM applies the name, *yourFlowname Poll*.
 
 The *Last Run* column shows the exact date and time when each polling element ran most recently. You can view the Logs to see further details about when the jobs started and ended their scheduled runs. 
 
@@ -63,8 +63,8 @@ To manage the polling elements:
 
 . Check the boxes next to the individual elements that you want to manage.
 . Click *Run now* if you want to override the schedule and run that job immediately.
-. Click *Disable* to suspend a polling element. CloudHub does not run the polling job until you *Enable* it once again.
-. In the *Schedule *column, CloudHub lists each polling element's polling frequency.
+. Click *Disable* to suspend a polling element. ARM does not run the polling job until you *Enable* it once again.
+. In the *Schedule *column, the Runtime Manager lists each polling element's polling frequency.
 . Click the frequency of a polling element to open the schedule editor:
 +
 image:SchedulesChangeTime.png[SchedulesChangeTime]
@@ -86,8 +86,8 @@ image:SchedulesLogs.png[SchedulesLogs]
 +
 [NOTE]
 ====
-* While CloudHub supports polling frequencies in seconds, you may see discrepancies of a few seconds between individual polling calls. Setting a polling frequency higher than once in 10 seconds is not recommended.
-* If a scheduled job is missed (not triggered) one or more times because the application is down, CloudHub triggers the job once as soon as the application restarts.
+* While the Runtime Manager supports polling frequencies in seconds, you may see discrepancies of a few seconds between individual polling calls. Setting a polling frequency higher than once in 10 seconds is not recommended.
+* If a scheduled job is missed (not triggered) one or more times because the application is down, the Runtime Manager triggers the job once as soon as the application restarts.
 ====
 
 == See Also

@@ -1,13 +1,13 @@
 = Worker Monitoring
 :keywords: cloudhub, monitoring, worker, restarts, arm, runtime manager
 
-CloudHub supports worker monitoring and automatic restarts for unresponsive applications. Monitoring allows you the option to receive notifications and diagnostic information if your application becomes unresponsive. Optionally, enable automatic restarts so that your application can recover automatically without your intervention. CloudHub gives you the flexibility to conduct monitoring with or without enabling automatic restarts. 
+CloudHub, the Runtime Manager's iPaaS (Integration Platform as a Service) solution, supports worker monitoring and automatic restarts for unresponsive applications. Monitoring allows you the option to receive notifications and diagnostic information if your application becomes unresponsive. Optionally, enable automatic restarts so that your application can recover automatically without your intervention. CloudHub gives you the flexibility to conduct monitoring with or without enabling automatic restarts. 
 
-Monitoring is enabled by default on all applications deployed to runtimes. (Applications already deployed before the monitoring feature was introduced need to be redeployed for monitoring to take effect.) You can activate the automatic restart feature on a per-application basis using the CloudHub console when you deploy a new application or redeploy an existing application.
+Monitoring is enabled by default on all applications deployed to runtimes. (Applications already deployed before the monitoring feature was introduced need to be redeployed for monitoring to take effect.) You can activate the automatic restart feature on a per-application basis using the Runtime Manager console when you deploy a new application or redeploy an existing application.
 
 == Prerequisites
 
-This document assumes that you are familiar with link:/cloudhub/deploying-a-cloudHub-application[deploying applications using the CloudHub console] and that you are deploying to runtime 3.4.n, 3.5.n, or newer. 
+This document assumes that you are familiar with link:/cloudhub/deploying-a-cloudHub-application[deploying applications using the Runtime Manager console] and that you are deploying to runtime 3.4.n, 3.5.n, or newer. 
 
 == Enabling Automatic Restarts
 
@@ -31,19 +31,19 @@ image:CHMuleSystemHealthMsg.png[CHMuleSystemHealthMsg]
 
 == How Monitoring Works
 
-Every thirty seconds, CloudHub sends an HTTP get request to the ping flow within the application. If the application is running normally, the ping flow sends a response. If CloudHub receives no response from the ping three times in a row, the Logs print a warning and display a full thread dump.
+Every thirty seconds, the Runtime Manager sends an HTTP get request to the ping flow within the application. If the application is running normally, the ping flow sends a response. If the Runtime Manager receives no response from the ping three times in a row, the Logs print a warning and display a full thread dump.
 
 image:CH-monitoring-threaddump.png[CH-monitoring-threaddump]
 
-In addition, CloudHub triggers a notification to the console to alert you that a worker for this application stopped responding.
+In addition, the Runtime Manager triggers a notification to the console to alert you that a worker for this application stopped responding.
 
 If you have configured email alerts, the nonresponsive worker also triggers an email alert based on the "Worker Not Responding" event. See link:/cloudhub/alerts-and-notifications[Alerts and Notifications] for more information about configuring these alerts.
 
 == How Automatic Restarts Work
 
-If you check the box labeled **Automatically restart application when not responding**, CloudHub follows the same procedure described above, but also automatically triggers redeployment of the application. 
+If you check the box labeled **Automatically restart application when not responding**, the Runtime Manager follows the same procedure described above, but also automatically triggers redeployment of the application. 
 
-If you do not have this box checked, CloudHub only produces a notification and a log message and takes no further action.
+If you do not have this box checked, the Runtime Manager only produces a notification and a log message and takes no further action.
 
 image:CH-monitoring-notification2.png[CH-monitoring-notification2]
 
@@ -51,7 +51,7 @@ image:CH-monitoring-logs5.png[CH-monitoring-logs5]
 
 The monitoring script exits and the application is left unchanged until you manually intervene.
 
-If you have enabled automatic restart, CloudHub produces a notification to signal that the restart has been triggered and another to report the success or failure of the restart: 
+If you have enabled automatic restart, the Runtime Manager produces a notification to signal that the restart has been triggered and another to report the success or failure of the restart: 
 
 image:CH-monitoring-notifications.png[CH-monitoring-notifications]
 
@@ -59,7 +59,7 @@ The logs report the details of the restart procedure. If the restart succeeds, t
 
 image:CH-successfulrestart.png[CH-successfulrestart]
 
-If the restart fails, CloudHub continues to attempt restarting up to five times. Once the maximum number of restart attempts is exceeded, CloudHub takes no further action. The monitoring script exits and the application is left unchanged until you manually intervene.
+If the restart fails, the Runtime Manager continues to attempt restarting up to five times. Once the maximum number of restart attempts is exceeded, the Runtime Manager takes no further action. The monitoring script exits and the application is left unchanged until you manually intervene.
 
 == See Also
 

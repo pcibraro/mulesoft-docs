@@ -1,11 +1,11 @@
 = Managing Queues
 :keywords: cloudhub, managing, monitoring, seda, vm, arm, runtime manager
 
-CloudHub includes a *Queues* tab in the left navigation menu where you can view and control any Virtual Machine (VM) or Staged Event-Driven Architecture (http://en.wikipedia.org/wiki/Staged_event-driven_architecture[SEDA]) queues within the flows of your deployed applications:
+Anypoint Runtime Manager (ARM) includes a *Queues* tab in the left navigation menu where you can view and control any Virtual Machine (VM) or Staged Event-Driven Architecture (http://en.wikipedia.org/wiki/Staged_event-driven_architecture[SEDA]) queues within the flows of your deployed applications:
 
 image:QueuesTab.png[QueuesTab]
 
-CloudHub automatically detects the queues from within your flow and lists them on the Queues tab. You can see the number of queued and in-flight messages on each queue, view a snapshot of the queue throughput for the past 24 hours, or clear all pending messages on a queue – all during runtime, without making any changes in the underlying application. You can also enable data-at-rest encryption for your persistent queues, this ensures that any shared application data written out to a persistent queue is encrypted.
+ARM automatically detects the queues from within your flow and lists them on the Queues tab. You can see the number of queued and in-flight messages on each queue, view a snapshot of the queue throughput for the past 24 hours, or clear all pending messages on a queue – all during runtime, without making any changes in the underlying application. You can also enable data-at-rest encryption for your persistent queues, this ensures that any shared application data written out to a persistent queue is encrypted.
 
 == Use Cases
 
@@ -19,8 +19,8 @@ The Queues tab is especially useful for the following use cases:
 
 To enable queues:
 
-.  Deploy an application to CloudHub that includes one or more link:/mule-user-guide/v/3.7/vm-transport-reference[VM endpoints] or that includes a flow set to the queued-asynchronous link:/mule-user-guide/v/3.7/flow-processing-strategies[processing strategy]. 
-.  In CloudHub, click the application and click *Manage Application*.
+.  Deploy an application (either to CloudHub or an on premises server) that includes one or more link:/mule-user-guide/v/3.7/vm-transport-reference[VM endpoints] or that includes a flow set to the queued-asynchronous link:/mule-user-guide/v/3.7/flow-processing-strategies[processing strategy]. 
+.  In the Applications tab of ARM, click the application and click *Manage Application*.
 .  Click the checkbox for *Persistent queues*.
 .  If you are enabling this setting when deploying an application, click *Deploy Application*. If you are updating an existing application, click *Apply Changes*.
 +
@@ -28,7 +28,7 @@ image:PersistentQueuesSetOnDeploy.png[PersistentQueuesSetOnDeploy]
 
 == Viewing Queues
 
-After you enable Persistent queues, click *Queues* in the left navigation menu. CloudHub lists the queues in your application in the order that they appear in your application: 
+After you enable Persistent queues, click *Queues* in the left navigation menu. The Runtime Manager lists the queues in your application in the order that they appear in your application: 
 
 image:CHQConsole.png[CHQConsole]
 
@@ -42,7 +42,7 @@ To clear one or more queues, click one or more checkboxes next to the queues you
 
 image:CHQClearQ.png[CHQClearQ]
 
-CloudHub presents a warning message that confirms which queues to clear and the duration this process takes to occur. Click *Clear Queues* to proceed.
+ARM presents a warning message that confirms which queues to clear and the duration this process takes to occur. Click *Clear Queues* to proceed.
 
 image:CHQClear.png[CHQClear]
 
@@ -72,4 +72,4 @@ When enabling persistent queues in your application, be aware of the following:
 == See Also
 
 * Learn more about the advantages of link:/cloudhub/fabric[Fabric].
-* Learn how to link:https://developer.mulesoft.com/docs/display/current/CloudHub+Fabric#CloudHubFabric-building[set up your applications in reliability patterns] to reap the benefits of persistent queueing.
+* Learn how to ink:/cloudhub/fabric#cloudhubfabric-building[set up your applications in reliability patterns] to reap the benefits of persistent queueing.

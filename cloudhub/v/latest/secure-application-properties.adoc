@@ -1,17 +1,17 @@
 = Secure Application Properties
 :keywords: cloudhub, jdbc, security, arm, runtime manager
 
-CloudHub supports *secure application properties*, where the name of a property is visible in the console, but the value is not displayed or retrievable by a user. CloudHub resolves the property at runtime without exposing the sensitive information.
+The Anypoint Runtime Manager (ARM) supports *secure application properties*, where the name of a property is visible in the console, but the value is not displayed or retrievable by a user. ARM resolves the property at runtime without exposing the sensitive information.
 
 == Use Case
 
-Application Properties are variables that act as placeholders in your Mule application, and which are set in your Mule server at runtime. The Mule server supplies the values for the variables using information you configure in the CloudHub console when you deploy an application or update an existing application in the Deployment tab.
+Application Properties are variables that act as placeholders in your Mule application, and which are set in your Mule server at runtime. The Mule server supplies the values for the variables using information you configure in the Runtime Manager console when you deploy an application or update an existing application in the Deployment tab.
 
-For example, you can configure a JDBC connector where the username is set to `${dbUsername}` and the password is set to `${dbPassword}`. In the CloudHub console, you can set these two properties as application properties, as shown below.
+For example, you can configure a JDBC connector where the username is set to `${dbUsername}` and the password is set to `${dbPassword}`. In the Runtime Manager console, you can set these two properties as application properties, as shown below.
 
 image:dbproperties.png[dbproperties]
 
-However, for sensitive information, you may wish to flag these properties as secure so that, after they are entered and saved in the CloudHub console, their values are neither visible in the console nor passed between the console and the CloudHub server.
+However, for sensitive information, you may wish to flag these properties as secure so that, after they are entered and saved in the Runtime Manager console, their values are neither visible in the console nor passed between the console and the Runtime Manager server.
 
 == Creating Secure Application Properties
 
@@ -29,7 +29,7 @@ To create secure application properties:
 5. secure.properties=password, birthdate
 ----
 +
-. Deploy the Mule application to CloudHub. 
+. Deploy the Mule application. 
 . Enter your application properties as you normally would. 
 +
 image:dbproperties2.png[dbproperties2]
@@ -38,11 +38,11 @@ image:dbproperties2.png[dbproperties2]
 +
 image:dbproperties3.png[dbproperties3]
 +
-. Note that, once the values are committed and the application is uploaded, the secured properties are never displayed on the console, nor sent and received between the console and the CloudHub server. There is no way to retrieve the property, once set. It can, however, be overwritten with a new value. So, if you need to update a value, type a new value into the field, as shown below.
+. Note that, once the values are committed and the application is uploaded, the secured properties are never displayed on the console, nor sent and received between the console and the server (whether it's a CloudHub server or an on premises server). There is no way to retrieve the property, once set. It can, however, be overwritten with a new value. So, if you need to update a value, type a new value into the field, as shown below.
 +
 image:dbproperties4.png[dbproperties4]
 +
-Once an application is deployed with secured properties, CloudHub maintains the security flag for those properties. Even if you edit your application file to remove the `secure.properties` definitions from your `mule-app.properties` file and then upload that edited application file to CloudHub, CloudHub maintains the security of the properties previously flagged as secure.
+Once an application is deployed with secured properties, the Runtime Manager maintains the security flag for those properties. Even if you edit your application file to remove the `secure.properties` definitions from your `mule-app.properties` file and then upload that edited application file to ARM, ARM maintains the security of the properties previously flagged as secure.
 
 [NOTE]
 ====
