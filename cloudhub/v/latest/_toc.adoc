@@ -13,14 +13,13 @@
 **** Cloud
 ***** link:/cloudhub/developing-a-cloudhub-application[Developing a CloudHub Application]
 ***** link:/cloudhub/deploying-a-cloudhub-application[Deploying a CloudHub Application]
-***** link:/cloudhub/cloudhub-fabric[CloudHub Fabric]
+***** link:/cloudhub/fabric[Fabric]
 **** On-Prem
 // something similar to //cloudhub/managing-cloudhub-applications[Managing CloudHub]
-*** Managing
+*** link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM]
 **** link:/cloudhub/cloudhub-console-overview[ARM Console Overview]
-**** link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM]
 **** link:/cloudhub/alerts-and-notifications[Alerts and Notifications]
-**** link:/cloudhub/cloudhub-insight[Insights]
+**** link:/cloudhub/runtime-manager-insight[Runtime Manager Insight]
 **** link:/cloudhub/viewing-log-data[Viewing Log Data]
 **** link:/cloudhub/managing-queues[Managing Queues]
 **** link:/cloudhub/managing-schedules[Managing Schedules]

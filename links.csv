@@ -321,9 +321,9 @@ Anypoint Platform Administration,CloudHub,latest,cloudhub-administration.adoc,/c
 CloudHub API,CloudHub,latest,cloudhub-api.adoc,/cloudhub/cloudhub-api
 CloudHub Architecture,CloudHub,latest,runtime-manager-architecture.adoc,/cloudhub/runtime-manager-architecture
 CloudHub at a Glance,CloudHub,latest,cloudhub-at-a-glance.adoc,/cloudhub/cloudhub-at-a-glance
-CloudHub Console Overview,CloudHub,latest,cloudhub-console-overview.adoc,/cloudhub/cloudhub-console-overview
-CloudHub Fabric,CloudHub,latest,cloudhub-fabric.adoc,/cloudhub/cloudhub-fabric
-CloudHub Insight,CloudHub,latest,cloudhub-insight.adoc,/cloudhub/cloudhub-insight
+CloudHub Console Overview,CloudHub,latest,arm-console-overview.adoc,/cloudhub/arm-console-overview
+Fabric,CloudHub,latest,fabric.adoc,/cloudhub/fabric
+Runtime Manager Insight,CloudHub,latest,runtime-manager-insight.adoc,/cloudhub/runtime-manager-insight
 CloudHub Networking Guide,CloudHub,latest,cloudhub-networking-guide.adoc,/cloudhub/cloudhub-networking-guide
 Command Line Tools,CloudHub,latest,command-line-tools.adoc,/cloudhub/command-line-tools
 CloudHub Community and Support,CloudHub,latest,community-and-support.adoc,/cloudhub/community-and-support

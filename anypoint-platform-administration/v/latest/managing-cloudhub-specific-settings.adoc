@@ -63,7 +63,7 @@ image:SubscriptionLevel.png[SubscriptionLevel]
 [NOTE]
 *The Number of Workers Is Not the Same as the Number of Applications* +
  +
-Note that there is not a 1:1 relationship between workers and applications. For more information on Worker Sizing, see link:/cloudhub/cloudhub-fabric[CloudHub Fabric] and link:/cloudhub/deploying-a-cloudhub-application[Deploying a CloudHub Application].
+Note that there is not a 1:1 relationship between workers and applications. For more information on Worker Sizing, see link:/cloudhub/fabric[Fabric] and link:/cloudhub/deploying-a-cloudhub-application[Deploying a CloudHub Application].
 
 == Changing Your Plan
 

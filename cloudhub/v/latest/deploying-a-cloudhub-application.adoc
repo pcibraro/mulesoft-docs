@@ -106,7 +106,7 @@ Depending on how many vCores your account possesses, some of these options may n
 [IMPORTANT]
 If you select more vCores than are available in your account, CloudHub allows you to create the application using the console, but you cannot start your application until vCores are available.
 
-When deploying an application with more than one worker, CloudHub automatically load-balances any incoming traffic across your allocated workers. For more information, see link:/cloudhub/cloudhub-fabric[CloudHub Fabric].
+When deploying an application with more than one worker, CloudHub automatically load-balances any incoming traffic across your allocated workers. For more information, see link:/cloudhub/fabric[Fabric].
 
 === Region
 
@@ -121,7 +121,7 @@ Click the Secure data gateway chckbox if your application has a link:/cloudhub/s
 
 === Persistent Queues
 
-Check this box to enable persistent queues on your application. Persistent queues protect against message loss and allow you to distribute workloads across a set of workers. Before you can take advantage of persistent queueing, your application needs to be set up to use queues. See link:/cloudhub/cloudhub-fabric[CloudHub Fabric] for more information.
+Check this box to enable persistent queues on your application. Persistent queues protect against message loss and allow you to distribute workloads across a set of workers. Before you can take advantage of persistent queueing, your application needs to be set up to use queues. See link:/cloudhub/fabric[Fabric]  for more information.
 
 === Automatic Restart
 
@@ -153,7 +153,7 @@ Note that you can flag application properties as secure so that their values are
 
 === Insight Tab
 
-The Insight tab lets you specify metadata options for the Insight analytics feature. For more information, see the link:/cloudhub/cloudhub-insight[CloudHub Insight] document.
+The Insight tab lets you specify metadata options for the Insight analytics feature. For more information, see the link:/cloudhub/runtime-manager-insight[Insight] document.
 
 image:CHInsightTab.png[CHInsightTab]
 
