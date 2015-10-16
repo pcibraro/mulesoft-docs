@@ -1,6 +1,9 @@
 = Alerts and Notifications
 :keywords: cloudhub, management, analytics, arm, runtime manager
 
+[NOTE]
+This service is currently only available for apps deployed to CloudHub, not for those deployed to servers on premises.
+
 == Overview
 
 *Notifications* are standard messages that appear in the Anypoint Runtime Manager (ARM) console to provide status information about your applications. 

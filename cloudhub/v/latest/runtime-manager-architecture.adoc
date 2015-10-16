@@ -7,18 +7,19 @@ The Anypoint Runtime Manager has been built from the ground up to provide enterp
 
 To understand ARM's approach to security and availability, it’s important to understand the architecture behind it. ARM includes three major components: the Runtime Manager Console, the platform services, and CloudHub. These three components work together to run your integration applications.
 
-image:architecture-diagram.png[architecture-diagram]
+image:architecture-diagram.jpg[architecture-diagram]
 
-[width="99",cols="10a,45a,45a"]
+[width="99",cols="45a,45a"]
 |===
-|  |<<Integration Applications>> |These are applications that you create and deploy to ARM to perform integration logic for your business.
-|image:blue-1.png[blue-1] |<<Management Console>> |The Runtime Managemente Console is the face of ARM, allowing you to deploy and monitor integrations, and configure your account, among other things.
+|<<Integration Applications>> |These are applications that you create and deploy to ARM to perform integration logic for your business.
+|<<Runtime Management Console>> |The Runtime Managemente Console is the face of ARM, allowing you to deploy and monitor integrations, and configure your account, among other things.
 
-|image:blue-2.png[blue-2] |<<Platform Services>> |This set of shared ARM platform services and APIs includes Insight, alerting, logging, account management, load balancing, and other features.
+|<<Monitoring Services>> |This set of shared ARM monitoring services and APIs includes Insight, alerting, logging, account management, load balancing, and other features. These are currently only available for applications deployed to the worker Cloud.
+|<<Deployment Services>> |This set of services performs the actual deployment, and scaling of your applications accross the different servers.
 
-|image:blue-3.png[blue-3] |<<CloudHub>> |This is an elastic cloud of Mule instances that run integration applications.
+|<<Worker Cloud>> |This is an elastic cloud of Mule instances that run integration applications.
 
-|image:blue-4.png[blue-4] |<<On Premise Servers>> |This includes servers that reside on premises, that can be configured to be managed by ARM. These servers must have a copy of eiter Mule ESB or the API Gateway Runtime installed in them.
+|<<Servers On Premises>> |This includes servers that reside on premises, that can be configured to be managed by ARM. These servers must have a copy of eiter Mule ESB or the API Gateway Runtime installed in them.
 
 |===
 
@@ -39,13 +40,18 @@ Administrator account holders can use the management console to add and manage o
 
 For more information about the console, see link:/cloudhub/arm-console-overview[Runtime Management Console Overview]. For more information about using the console for account management, see link:/anypoint-platform-administration[Account Management].
 
-=== Platform Services
+=== Monitoring Services
 
-ARM's platform services are responsible for coordinating all aspects of the platform. They coordinate deployment of applications, monitor integrations, provide analytics data, store application data, run scheduled jobs, and more. Many of these services are also exposed through RESTful APIs. 
+ARM's monitoring services are currently only available for applications deployed to the cloud through CloduHub, not for applications deployed to servers on premises. They're responsible for monitoring integrations, provide analytics data, store application data, run scheduled jobs, and more. Many of these services are also exposed through RESTful APIs. 
 
 For more information about the CloudHub API, refer to the link:/cloudhub/cloudhub-api[CloudHub API Reference].
 
-=== CloudHub Workers
+=== Deployment Services
+
+Deployment services take care of provisioning and managing the apps you deploy both to CloudHub and to servers on premises.
+
+
+=== Worker Cloud
 
 Applications on CloudHub are run by one or more instances of Mule, called *workers*.
 
@@ -69,7 +75,7 @@ Workers that use a link:https://aws.amazon.com/ec2/instance-types/#burst[fractio
 
 With link:/cloudhub/fabric[Fabric], you can also scale your applications horizontally by adding multiple workers and load distribution over queues.
 
-=== Global Worker Clouds
+==== Global Worker Clouds
 
 CloudHub offers different worker clouds in different regions of the world: the United States, the European Union, and Australia. This global distribution allows you to host your integration in a location that is closest to your services, thus reducing latency. It may also allow you to adhere with local laws, such as the EU Data Protection Directive. The management console and platform services are hosted in the United States.
 
@@ -77,14 +83,14 @@ When your application is running in the EU, all HTTP services are also available
 
 For more information about deploying applications to different regions, refer to the link:/cloudhub/deploying-a-cloudhub-application[deployment guide]. For more information about CloudHub's security and compliance, download the link:_attachments/Anypoint_Platform_Cloud_Security_and_Compliance.pdf[Anypoint Cloud Security & Compliance whitepaper].
 
-=== Workers and Multitenancy
+==== Workers and Multitenancy
 
 Because different levels of security and isolation are needed depending on the service, the platform provides two different levels of multitenancy.
 
 * First, the worker cloud is a multitenant cloud of virtual machines. These VMs provide the security and isolation needed for your integrations to run custom code without affecting others. 
 * Second, the management console and the platform services have a "shared everything" architecture – all tenants share the same web UI, monitoring services, load balancers, etc. These services do no not process or transmit your data.
 
-=== On Premise Servers
+=== Servers On Premises
 
 ARM provides a single management interface where you can manage applications running in the cloud or on servers or groups of servers that are on premises within your data center. Applications that are on premises run on Mule Runtime instance(s) on a single server or a group of servers.
 For information on how to set these up, see link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises]
