@@ -1,28 +1,30 @@
 = Deploying a CloudHub Application
 :keywords: cloudhub, cloud, deploy, manage, arm, runtime manager
 
-You can deploy a CloudHub application from:
+There are three ways you can deploy a Mule application to the Anypoint Runtime Manager (ARM):
 
-* *Anypoint Studio* - Right-click your project and click *CloudHub* > *Deploy to CloudHub*. For an example of deploying to CloudHub directly from Anypoint Studio, see link:/cloudhub/hello-world-on-cloudhub[Hello World on CloudHub].
-* *CloudHub* - From the Applcations tab, click the *Deploy application* button. This page describes the options on the Deploy Application page.
+* Through the *Anypoint Platform* - Log in to the Anypoint Platform (either the online or the on premises edition), select the *Runtime Manager*, in the *Applcations* tab, click the *Deploy application* button.
+* From *Anypoint Studio* - Once you have built out your application as a mule project, right-click on your project on the package explorer, then select *Deploy to Anypoint Platform*. 
+* Directly to your Mule ESB instance On Premises - Place your application's .zip file in the *apps* folder under your Mule home folder. Then configure this mule instance so that it can be managed via ARM.
 
-== Deploying an Application from CloudHub
+
+== Deploying an Application Through the Anypoint Platform
 
 To deploy an application:
 
 . Log into link:https://anypoint.mulesoft.com[Anypoint Platform] or click *Sign up* on the sign on page.
-. Click *CloudHub*:
+. Select the *Runtime Manager*:
 +
 image:APStartScreen.png[APStartScreen]
 +
-. Click *Deploy application*:
+. In the *Applications* tab, click *Deploy application*:
 +
 image:DeployAppFromConsole.png[DeployAppFromConsole] 
 +
 [NOTE]
 *Note*: For more information on the Applications and Servers tabs, see link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises.]
 +
-.  The Deploy Application page opens:
+.  A popup will open and instruct you to provide information about the application:
 +
 image:DeployAppFirstScreen.png[DeployAppFirstScreen] 
 
@@ -36,14 +38,14 @@ image:DeployAppName.png[DeployAppName]
 
 === Deployment Target
 
-CloudHub lets you specify where you want to deploy your application:
+ARM lets you specify where you want to deploy your application:
 
 * On the CloudHub worker cloud
 * On an on-premises server, server group, or cluster
 
-For more information on deploying to a server or server group, see link:/cloudhub/managing-servers-on-premises[Managing Applications and Servers in the Cloud and On Premises].
+For more information on deploying to a server or server group, see link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises].
 
-== Application File
+=== Application File
 
 Upload a new file for deployment. Click the **Choose file **button, select your application file, and then click *Open*. You can also click the *Get from sandbox* button to copy a file from a non-production environment into your current environment. (If the Get From Sandbox button does not appear, you may first need to create a non-production environment to view this option.) 
 
@@ -73,9 +75,9 @@ image:RuntimeVersion2.png[RuntimeVersion2]
 
 === Worker Sizing
 
-After you deploy your application, you can allocate an amount and a size for the *Worker size* of your application. On each application, workers are responsible for executing your application logic. 
+After you deploy your application to CloudHub, you can allocate an amount and a size for the *Worker size* of your application. On each application, workers are responsible for executing your application logic.
 
-There are 5 different worker sizes to choose from, with the compute and memory capacities described in the following table:
+In CloudHub there are 5 different worker sizes to choose from, with the compute and memory capacities described in the following table:
 
 [cols=",,,,,",]
 |===
