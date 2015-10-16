@@ -1,6 +1,9 @@
 = Managing Application Data Storage with Object Stores
 :keywords: cloudhub, object stores, arm, runtime manager
 
+[NOTE]
+This service is currently only available for apps deployed to CloudHub, not for those deployed to servers on premises.
+
 The Anypoint Runtime Manager (ARM) includes application data storage for each application which is accessible through Mule's link:/mule-user-guide/v/3.7/mule-object-stores[ObjectStore] functionality. This storage can be used to store anything, but two of its main uses are:
 
 * Storing synchronization state:  Your application may need to keep track of the last synchronized record, so that the next time it synchronizes, it can resume where it left off.

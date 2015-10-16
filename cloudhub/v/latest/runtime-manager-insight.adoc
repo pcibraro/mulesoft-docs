@@ -1,6 +1,9 @@
 = Runtime Manager Insight
 :keywords: cloudhub, analytics, monitoring, insight, filter, arm, runtime manager
 
+[NOTE]
+This service is currently only available for apps deployed to CloudHub, not for those deployed to servers on premises.
+
 *Insight* gives you in-depth visibility into business transactions and events on your Mule applications. By tracking everything your data does in an application, Insight makes information searchable and helps you find and recover from any errors that occurred during message processing and replay your transactions instantly.
 
 Insight helps you answer questions about your integrated apps, such as:
