@@ -25,7 +25,7 @@ http://0.0.0.0:${http.port}/service/path/two
 
 If you want to run a CloudHub application locally, create an link:/mule-user-guide/v/3.7/mule-application-deployment-descriptor[application properties] file named *mule-app.properties* in the `src/main/app` folder of your project. You need to do this whether you work in Anypoint Studio or another IDE. This allows you to define a local value for the variable `http.port` or `https.port`.
 
-If you have other runtime settings that you want to configure differently when running locally, you may also place them in the application properties file and refer to them using the syntax `${propertyname}` in your Mule application configuration. Each application can declare a set of environment variables when it is deploys to provide a different value when deploying on CloudHub. You can define these environment variables using the link:/cloudhub/deploying-a-cloudhub-application[CloudHub Console] or the link:/cloudhub/command-line-tools[Command Line Tools].
+If you have other runtime settings that you want to configure differently when running locally, you may also place them in the application properties file and refer to them using the syntax `${propertyname}` in your Mule application configuration. Each application can declare a set of environment variables when it is deploys to provide a different value when deploying on CloudHub. You can define these environment variables using the link:/cloudhub/deploying-an-application-to-arm[Deploying an Application to ARM] or the link:/cloudhub/command-line-tools[Command Line Tools].
 
 == Logging
 
@@ -49,5 +49,5 @@ CloudHub applications can have a web UI using HTML and JavaScript. The AJAX Modu
 
 == See Also
 
-* Learn about link:/cloudhub/deploying-a-cloudhub-application[Deploying a CloudHub Application]
+* Learn about link:/cloudhub/deploying-an-application-to-arm[Deploying an Application to ARM]
 * After you develop and deploy your application, see link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM] at runtime.

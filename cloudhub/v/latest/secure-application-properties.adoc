@@ -54,4 +54,4 @@ Note that when moving applications between link:/anypoint-platform-administratio
 == See Also
 
 * Read more about link:/cloudhub/developing-a-cloudhub-application[developing applications] for CloudHub.
-* Read more about link:/cloudhub/deploying-a-cloudhub-application[deploying applications] to CloudHub.
+* Read more about link:/cloudhub/deploying-an-application-to-arm[Deploying an Application to ARM]

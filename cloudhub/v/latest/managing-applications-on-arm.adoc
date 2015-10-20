@@ -28,7 +28,7 @@ Administrators can link:/anypoint-platform-administration/managing-cloudhub-spe
 [NOTE]
 Only for applications deployed to CloudHub
 
-You can dynamically scale your applications by selecting options from the *Worker size* drop-down menu, and clicking the *Apply Changes* button. Your application uses the worker size and amount that you specify. For more information about deploying to multiple workers, see link:/cloudhub/deploying-a-cloudhub-application[Worker Sizing].
+You can dynamically scale your applications by selecting options from the *Worker size* drop-down menu, and clicking the *Apply Changes* button. Your application uses the worker size and amount that you specify. For more information about deploying to multiple workers, see link:/cloudhub/deploying-an-application-to-arm[Deploying an Application to ARM].
 
 image:WorkerSize.png[WorkerSize]
 

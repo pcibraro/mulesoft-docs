@@ -335,7 +335,7 @@ Creating and Managing Clusters,CloudHub,latest,creating-and-managing-clusters.ad
 Custom Application Alerts,CloudHub,latest,custom-application-alerts.adoc,/cloudhub/custom-application-alerts
 Delete an Application,CloudHub,latest,delete-application.adoc,/cloudhub/delete-application
 Deploy Application,CloudHub,latest,deploy-application.adoc,/cloudhub/deploy-application
-Deploying a CloudHub Application,CloudHub,latest,deploying-a-cloudhub-application.adoc,/cloudhub/deploying-a-cloudhub-application
+Deploying an Application to ARM,CloudHub,latest,deploying-an-application-to-arm.adoc,/cloudhub/eploying-an-application-to-arm
 Developing a CloudHub Application,CloudHub,latest,developing-a-cloudhub-application.adoc,/cloudhub/developing-a-cloudhub-application
 CloudHub FAQ,CloudHub,latest,faq.adoc,/cloudhub/faq
 Get an Application,CloudHub,latest,get-application.adoc,/cloudhub/get-application
