@@ -2,55 +2,37 @@
 :keywords: cloudhub, cloud, manage, arm, runtime manager, applications, on pemises, onprem, deploy, stop application, delete application
 
 
-An application is a Mule Application that is running on a Mule or API Gateway instance. The instance can be running in CloudHub, a server in an organization, or a group of servers. For server groups, an application deployed to the group runs on every server in the group. See <<Status States>> for possible values in the *Status* column.
+An application is a Mule Project that runs on a Mule or an API Gateway instance. The instance can be running on a server (or group of servers) on premises, or in the cloud. Servers and server groups must first be registered on the Runtime Manager to be eligible for deploying an app to them, see link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises] for more information.
 
 image:AMC_Applications.png[AMC_Applications]
 
-From the *Applications* tab, by clicking an entry as shown, you can perform the following tasks:
+From the *Applications* tab you can perform the following tasks when you click on an instance:
 
 * <<Deploy an Application>>
-* <<Start, Stop, and Delete an Application>>
+* <<Start, Stop, or Delete an Application>>
 * <<Manage an Application>>
 
 
-=== Deploy an Application
+== Deploy an Application
 
-When you deploy an application, you set it to run in CloudHub, or in a server or server group in your organization. Use Anypoint Studio to create an application as described in link:/cloudhub/hello-world-on-cloudhub[Hello World on CloudHub]. 
+When you deploy an application, you set it to run in CloudHub, or in a server or server group on premises.
 
-In the Applications screen, click *Deploy application*: 
+You can create this application using Anypoint Studio, which is a great help, but you could also create it with any editor.
+Once you have built it, there are two ways you can deploy a Mule application to the Anypoint Runtime Manager (ARM):
 
-image:AMC_DeployApp.png[AMC_DeployApp]
+* Through the *Anypoint Platform* - Log in to the Anypoint Platform (either the online or the on premises edition), select the *Runtime Manager* section. Then, in the *Applcations* tab, click the *Deploy application* button.
+* From *Anypoint Studio* - Once you have built out your application as a mule project, right-click on your project on the package explorer, then select *Deploy to Anypoint Platform*. 
 
-Specify:
 
-* *Application Name* - An application name that consists of at least 3 characters in length with a maximum of 40 characters, containing only letters, numbers, or dashes, and cannot start with a dash.
-+
-* *Deployment Target* - From the drop-down list, click *CloudHub*, a server name, or a server group for where you want to deploy your application. Deploying to CloudHub implies deploying to the cloud, whereas by selecting a server or group you're deploying an application to one or more servers in your organization's data center.
-+
-If you click *CloudHub*, also supply:
-+
-[cols=",",options="header",]
-|===
-|Tab |Values
-|*Runtime* |Runtime version, worker size, workers, region, and restart options
-|*Properties* |Key value pairs
-|*Insight* |link:/cloudhub/runtime-manager-insight[Insight] values for metadata and replay
-|*Logging* |Log level and categories to include in logs
-|===
-+
-* *Application File* - A zip file created by Anypoint Studio. To create the file in Studio, export your project from Studio as a zip file and import it into Anypoint Management Center.
+== Start, Stop, or Delete an Application
 
-The bell icon in the upper right corner lets you manage notifications. For more information, see link:/cloudhub/alerts-and-notifications[Managing Notifications] in the link:/cloudhub/alerts-and-notifications[Alerts and Notifications] guide.
-
-=== Start, Stop, or Delete an Application
-
-To start, stop, or delete an application, click an application, and click the status down-arrow (the menus differ by Status):
+To start, stop, or delete an application, click an application, then open the dropdown menu:
 
 image:AMC_StopStartDeleteApp.png[AMC_StopStartDeleteApp]
 
-Click *Start*, *Stop*, or *Delete* as needed. The *Start* command restarts stopped applications, and if the application is Undeployed, sends the application's zip file to the server to start the application on the server.
+Select *Start*, *Stop*, or *Delete* as needed. The *Start* command restarts stopped applications, and if the application is Undeployed, sends the application's zip file to the server to start the application on the server.
 
-=== Manage an Application
+== Manage an Application
 
 Managing an application lets you view a dashboard that lists Mule Messages, CPU use, memory use, and any of the categories of commands in the left navigation area, such as viewing logs, alerts, queues, change settings, debugging, and more.
 
@@ -58,8 +40,8 @@ To manage an application, click *Manage Application*: 
 
 image:AMC_ManageApplication.png[AMC_ManageApplication]
 
-An example is (what displays may vary by permissions):
+You will see a dashboard like the one below:
 
 image:ManageAppDashboard.png[ManageAppDashboard]
 
-For more information on these features, see the link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM] page.
+For more information about these features, see the link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM] page.

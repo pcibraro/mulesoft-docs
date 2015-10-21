@@ -1,11 +1,10 @@
 = Deploying an Application to ARM
 :keywords: cloudhub, cloud, deploy, manage, arm, runtime manager
 
-There are three ways you can deploy a Mule application to the Anypoint Runtime Manager (ARM):
+There are two ways you can deploy a Mule application to the Anypoint Runtime Manager (ARM):
 
 * Through the *Anypoint Platform* - Log in to the Anypoint Platform (either the online or the on premises edition), select the *Runtime Manager* section. Then, in the *Applcations* tab, click the *Deploy application* button.
 * From *Anypoint Studio* - Once you have built out your application as a mule project, right-click on your project on the package explorer, then select *Deploy to Anypoint Platform*. 
-* Directly to your Mule ESB instance On Premises - Place your application's .zip file in the *apps* folder under your Mule home folder. Then configure this mule instance so that link:/cloudhub/managing-servers-on-premises[it can be managed via ARM].
 
 
 == Deploying an Application Through the Anypoint Platform
@@ -57,8 +56,22 @@ ARM lets you specify where you want to deploy your application:
 * On the CloudHub worker cloud
 * On an on-premises server, server group, or cluster
 
+From the drop-down list, click *CloudHub*, a server name, or a server group for where you want to deploy your application. Deploying to CloudHub implies deploying to the cloud, whereas by selecting a server or group you're deploying an application to one or more servers in your organization's data center.
+
 [NOTE]
 You might not see this option if you haven't registered any of your servers to your Anypoint Platform account. To do so, see link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises].
+
+If you select *CloudHub*, you're then able to also supply:
++
+[cols=",",options="header",]
+|===
+|Tab |Values
+|*Runtime* |Runtime version, worker size, workers, region, and restart options
+|*Properties* |Key value pairs
+|*Insight* |link:/cloudhub/runtime-manager-insight[Insight] values for metadata and replay
+|*Logging* |Log level and categories to include in logs
+|===
+
 
 === Application Name
 
@@ -203,7 +216,11 @@ The Logging tab lets you change the logging setting (INFO, DEBUG, WARN, or ERROR
 image:CHLoggingTab.png[CHLoggingTab]
 
 
-== ARM Deployment
+=== Setting up Alerts
+
+The bell icon in the upper right corner lets you manage notifications. For more information, see link:/cloudhub/alerts-and-notifications[Managing Notifications].
+
+== Completing the Process
 
 After you complete the settings described above, click *Deploy Application* and ARM automatically begins the deployment process. If you're deploying to the cloud, it first uploads it. During this process, your view is switched to the log view allowing you to monitor the process of your application deployment. This process could take several minutes. During the deployment, the application status indicator changes to yellow to indicate deployment in progress.
 
