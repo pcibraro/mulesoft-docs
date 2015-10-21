@@ -1,11 +1,15 @@
 = Runtime Manager FAQ
 :keywords: cloudhub, faq, ipaas, paas, arm, runtime manager
 
-== General
+== Introduction
 
-=== What is Anypoint Management Center?
+The Anypoint Platform Web interface allows you to manage your APIs, runtimes and integration applications from a single point. From here you can access Anypoint Runtime Manager, Anypoint API Manager and Analytics. Together, these tools allow you to manage runtimes regardless of where they are deployed -- whether on-premises or in the cloud, or as an API gateway -- as well as deploy/undeploy applications, administer servers, view analytics data and more.
 
-ARM is a unified interface that allows you to manage APIs, runtimes and integration for all of Anypoint Platform in a single control center. Within ARM, you can access the Anypoint Runtime Manager, Anypoint API Manager, Partner Manager and Analytics. You can manage runtimes regardless of where they are deployed -- whether on-premises or in the cloud, or as an API gateway -- as well as deploy/undeploy applications, administer servers, view analytics data and more.
+== General FAQ
+
+=== What is Anypoint Runtime Manager?
+
+ARM is a part of the Anypoint Platform Web admin interface. It allows you to manage application deployments, servers, clusters, and groups, regardless of whether they are deployed on-premises or in the cloud.
 
 === What is an iPaaS?
 
@@ -15,7 +19,9 @@ For more information, see link:http://blogs.mulesoft.org/introducing-integration
 
 === What is CloudHub?
 
-CloudHub is Anypoint Platform's integration platform as a service (iPaaS) solution, which enables developers to integrate and orchestrate applications and services without the need to install or manage middleware or hardware infrastructure. Within Anypoint Management Center, you access CloudHub deployments through the Runtime Manager. For more details on CloudHub, read more about the CloudHub link:/cloudhub/runtime-manager-architecture[architecture].
+CloudHub is Anypoint Platform's integration platform as a service (iPaaS) solution, which enables developers to integrate and orchestrate applications and services without the need to install or manage middleware or hardware infrastructure. Within Anypoint Management Center, you access CloudHub deployments through the Runtime Manager. Since CloudHub is fully integrated with link:/mule-fundamentals/v/3.7/anypoint-studio-essentials[Anypoint Studio], you can directly deploy your Mule applications from Studio to CloudHub with just a few clicks. After deployment, your applications and servers run on CloudHub; you can manage them through the Runtime Manager.
+
+For more details on CloudHub, read more about the CloudHub link:/cloudhub/runtime-manager-architecture[architecture].
 
 === Where can I get Anypoint Studio?
 
