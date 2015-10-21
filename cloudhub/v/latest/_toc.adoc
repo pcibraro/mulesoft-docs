@@ -5,7 +5,7 @@
 ** link:/cloudhub/getting-started-with-cloudhub[Getting Started with ARM]
 *** link:/cloudhub/cloudhub-at-a-glance[ARM at a Glance]
 *** link:/cloudhub/getting-started-with-connectors[Getting Started with Connectors]
-*** link:/cloudhub/community-and-support[ARM Community and Support]
+*** link:/cloudhub/community-and-support[CloudHub Community and Support]
 *** link:/cloudhub/faq[ARM FAQ]
 // ARM on premise installation stuff could go here
 ** link:/cloudhub/applications[Applications]

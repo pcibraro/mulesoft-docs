@@ -1,7 +1,11 @@
-= CloudHub FAQ
+= Runtime Manager FAQ
 :keywords: cloudhub, faq, ipaas, paas, arm, runtime manager
 
 == General
+
+=== What is Anypoint Management Center?
+
+ARM is a unified interface that allows you to manage APIs, runtimes and integration for all of Anypoint Platform in a single control center. Within ARM, you can access the Anypoint Runtime Manager, Anypoint API Manager, Partner Manager and Analytics. You can manage runtimes regardless of where they are deployed -- whether on-premises or in the cloud, or as an API gateway -- as well as deploy/undeploy applications, administer servers, view analytics data and more.
 
 === What is an iPaaS?
 
@@ -11,11 +15,11 @@ For more information, see link:http://blogs.mulesoft.org/introducing-integration
 
 === What is CloudHub?
 
-CloudHub a cloud-based integration platform as a service (iPaaS) that enables developers to integrate and orchestrate applications and services while giving operations the control and visibility they require for mission-critical demands, all without the need to install or manage middleware or hardware infrastructure. Read more about the CloudHub link:/cloudhub/runtime-manager-architecture[architecture].
+CloudHub is Anypoint Platform's integration platform as a service (iPaaS) solution, which enables developers to integrate and orchestrate applications and services without the need to install or manage middleware or hardware infrastructure. Within Anypoint Management Center, you access CloudHub deployments through the Runtime Manager. For more details on CloudHub, read more about the CloudHub link:/cloudhub/runtime-manager-architecture[architecture].
 
 === Where can I get Anypoint Studio?
 
-Anypoint Studio can be link:https://www.mulesoft.com/lp/dl/studio[downloaded here]. From Studio, you have ability to deploy directly to CloudHub or run your applications locally on an embedded Mule runtime.
+Anypoint Studio can be link:https://www.mulesoft.com/lp/dl/studio[downloaded here]. From Studio, you have the ability to deploy directly to CloudHub or run your applications locally on an embedded Mule runtime.
 
 === How much does CloudHub cost?
 
@@ -23,7 +27,7 @@ For specific pricing, please reach out to your account executive, your account d
 
 == Concepts
 
-=== What is a Worker?
+=== What is a CloudHub Worker?
 
 Applications that expose real time services or APIs run on one or more "workers". Each worker is an instance of Mule that runs your integration applications. See link:/cloudhub/fabric[Fabric] for details of how workers can be shared or doubled to scale your application and provide high availability.
 
@@ -39,7 +43,7 @@ Anypoint Connectors provide a simple and easy way to integrate with SaaS and Clo
 
 A Mule flow defines how Mule  processes messages between different applications. A flow defines a series of processors that  act on a message triggered by an event in an application, a request to a Web or REST service or a scheduled trigger.
 
-== Technical / Troubleshooting
+== CloudHub Technical/Troubleshooting Questions
 
 === What Java version are you using?
 
