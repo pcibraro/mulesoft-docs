@@ -234,6 +234,13 @@ For the case of CloudHub applications, the following gets recorded on the logs:
 Successfully deployed [mule application name]
 ----
 
+
+== Automatically Deploying a Proxy from the API Version Page
+
+If you've registered an API in the Anypoint Platform, you can easily run it through an link:/anypoint-platform-for-apis/walkthrough-proxy[
+auto generated proxy] to track its usage and implement link:/anypoint-platform-for-apis/applying-runtime-policies[policies]. You can deploy this proxy to the Runtime Manager without ever needing to go into the Runtime Manager section of the Anypoint platform. From a menu in the link:/anypoint-platform-for-apis/managing-api-versions[API version page], you can trigger the deployment of your proxy and set up the name it will have when deployed, the Gateway version to use and the CloudHub environment when deploying to the cloud. Then, you can optionally access the Runtime Manager deployment menu for this proxy and configure advanced settings. link:/anypoint-platform-for-apis/proxying-your-api[Read More].
+
+
 == Configuring a Deployed Application
 
 . In the Applications tab, click an application entry and select *Manage Application*:
@@ -243,12 +250,6 @@ image:AMC_ManageApplication.png[AMC_ManageApplication] 
 . Click the *Settings* tab:
 +
 image:ViewingDeployedApp.png[ViewingDeployedApp]
-
-
-== Automatically Deploying a Proxy from the Anypoint Platform for APIs
-
-If you've registered an API in the Anypoint Platform, you can easily run it through an link:/anypoint-platform-for-apis/walkthrough-proxy[
-auto generated proxy] to track its usage and implement link:/anypoint-platform-for-apis/applying-runtime-policies[policies]. You can deploy this proxy to the Runtime Manager without ever needing to go into the Runtime Manager section of the Anypoint platform. From a menu in the link:/anypoint-platform-for-apis/managing-api-versions[API version page], you can trigger the deployment of your proxy and set up the name it will have when deployed, the Gateway version to use and the CloudHub environment when deploying to the cloud. Then, you can optionally access the Runtime Manager deployment menu for this proxy and configure advanced settings. link:/anypoint-platform-for-apis/proxying-your-api[Read More].
 
 == Deployment Errors
 
