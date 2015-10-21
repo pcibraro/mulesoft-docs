@@ -14,7 +14,7 @@ ARM is fully integrated with CloudHub, the Anypoint Integration Platform as a Se
 . Read our link:/cloudhub/cloudhub-at-a-glance[CloudHub at a Glance] guide to learn the basic concepts.
 . Follow our easy link:/cloudhub/hello-world-on-cloudhub[Hello World on CloudHub] tutorial to get your first integration application up and running with Anypoint Studio and CloudHub.
 . link:/cloudhub/getting-started-with-connectors[Get started with connectors] to connect to external services like Twitter.
-. Ready to deploy an application? See link:/cloudhub/deploying-a-cloudhub-application[Deploying a CloudHub Application].
+. Ready to deploy an application? See link:/cloudhub/deploying-an-application-to-arm[Deploying an Application to ARM].
 
 Still don't understand how CloudHub can be of use to you? Read more about link:http://www.mulesoft.com/cloudhub/ipaas-cloud-based-integration-demand[things you can do with CloudHub].
 
@@ -31,7 +31,7 @@ Want to learn more? Check out all the examples in link:/mule-fundamentals/v/3.7
 
 The Anypoint Management Center enables you to:
 
-* link:/cloudhub/deploying-a-cloudhub-application[Deploy applications] to the cloud
+* link:/cloudhub/deploying-an-application-to-arm[Deploying an Application to ARM]
 * link:/cloudhub/managing-applications-in-the-cloud-and-on-premises[Manage applications and servers running on premises] from the cloud
 * link:/cloudhub/creating-and-managing-clusters[Create and manage clusters] from the cloud
 

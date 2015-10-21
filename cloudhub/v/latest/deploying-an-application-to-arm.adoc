@@ -1,11 +1,11 @@
-= Deploying a CloudHub Application
+= Deploying an Application to ARM
 :keywords: cloudhub, cloud, deploy, manage, arm, runtime manager
 
 There are three ways you can deploy a Mule application to the Anypoint Runtime Manager (ARM):
 
-* Through the *Anypoint Platform* - Log in to the Anypoint Platform (either the online or the on premises edition), select the *Runtime Manager*, in the *Applcations* tab, click the *Deploy application* button.
+* Through the *Anypoint Platform* - Log in to the Anypoint Platform (either the online or the on premises edition), select the *Runtime Manager* section. Then, in the *Applcations* tab, click the *Deploy application* button.
 * From *Anypoint Studio* - Once you have built out your application as a mule project, right-click on your project on the package explorer, then select *Deploy to Anypoint Platform*. 
-* Directly to your Mule ESB instance On Premises - Place your application's .zip file in the *apps* folder under your Mule home folder. Then configure this mule instance so that it can be managed via ARM.
+* Directly to your Mule ESB instance On Premises - Place your application's .zip file in the *apps* folder under your Mule home folder. Then configure this mule instance so that link:/cloudhub/managing-servers-on-premises[it can be managed via ARM].
 
 
 == Deploying an Application Through the Anypoint Platform
@@ -22,19 +22,33 @@ image:APStartScreen.png[APStartScreen]
 image:DeployAppFromConsole.png[DeployAppFromConsole] 
 +
 [NOTE]
-*Note*: For more information on the Applications and Servers tabs, see link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises.]
+If you wish to deploy your application to a server on premises, you must first register it to ARM. To do this, see link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises.]
 +
-.  A popup will open and instruct you to provide information about the application:
+.  You must then instruct information about the deployment, explained in a section below.
 +
 image:DeployAppFirstScreen.png[DeployAppFirstScreen] 
 
-=== Creating an Application Name
 
-Every application requires a unique application domain name. The application domain identifies your application in CloudHub and also provides you with a public URL, `http://myapplicationdomain.cloudhub.io`, for accessing the application if it exposes any inbound endpoints.
+== Deploy to ARM from Anypoint Studio
 
-To deploy an application, click *Deploy application* on the CloudHub console. in the *Deploy Application* dialog, enter a unique application name. The Application Name also becomes the cloudhub.io domain name that you use to access your application; for example the Application Name, abcde is accessible at http. Valid names contain alphanumeric characters and dashes, and contain at most 40 characters. If the name is valid, CloudHub alerts you whether it is available or already reserved by another user.
+You can easily deploy your applications to the Runtime Manager, straight from Anypoint Studio. This is specially helpful if you're still developing the application and want to deploy it often to an online test environment. To do this, left click on the application in the package explorer, select *Deploy to Anypoint Platform*.
 
-image:DeployAppName.png[DeployAppName]
+image:CHDeployToCH.png[CHDeployToCH]
+
+. If this is your first time deploying in this way, a popup menu asks you to provide your login credentials for the Anypoint Platform. Your credentials are then  stored and used automatically next time you deploy to the Anypoint Platform. You can manage these credentials through the Studio preferences menu, in *Anypoint Studio* > *Authentication*.
+
++
+image:studio+to+cloudhub3.png[studio+to+cloudhub3]
+
+. Once you have signed in, the Deploy menu opens, which displays the same options as you have when deploying from the Anypoint Platform. These are explained below.
+
++
+image:studio+to+cloudhub2.png[studio+to+cloudhub2]
+
+== Deployment Settings
+
+When deploying through the Anypoint Platform or Anypoint Studio, you're presented with the same set of fields to fill, these are explained below.
+
 
 === Deployment Target
 
@@ -43,7 +57,19 @@ ARM lets you specify where you want to deploy your application:
 * On the CloudHub worker cloud
 * On an on-premises server, server group, or cluster
 
-For more information on deploying to a server or server group, see link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises].
+[NOTE]
+You might not see this option if you haven't registered any of your servers to your Anypoint Platform account. To do so, see link:/cloudhub/managing-servers-on-premises[Managing Servers On Premises].
+
+=== Application Name
+
+[NOTE]
+This in not required for applications deployed to servers on premises.
+
+Every application that's deployed to CloudHub requires a unique application domain name. The application domain identifies your application in CloudHub and also provides you with a public URL, `http://myapplicationdomain.cloudhub.io`, for accessing the application if it exposes any inbound endpoints.
+
+In the *Deploy Application* dialog, enter a unique application name. The Application Name also becomes the cloudhub.io domain name that you use to access your application; for example the Application Name, abcde is accessible at *http://abcde.cloudhub.io*. Valid names contain alphanumeric characters and dashes, and contain at most 40 characters. If the name is valid, CloudHub alerts you whether it is available or already reserved by another user.
+
+image:DeployAppName.png[DeployAppName]
 
 === Application File
 
@@ -51,15 +77,8 @@ Upload a new file for deployment. Click the **Choose file **button, select you
 
 image:ApplicationFile.png[ApplicationFile]
 
-== Configuring a Deployed Application
-
-. In the Applications tab, click an application entry and click *Manage Application*:
-+
-image:AMC_ManageApplication.png[AMC_ManageApplication] 
-+
-. Click the *Settings* tab:
-+
-image:ViewingDeployedApp.png[ViewingDeployedApp]
+[NOTE]
+If you're deploying from Anypoint Studio, you can't modify the default value of this option. It will be the file that corresponds to the Studio project over which you selected the option *Deploy to Anypoint Platform*.
 
 === Runtime Version
 
@@ -69,13 +88,16 @@ image:RuntimeVersion2.png[RuntimeVersion2]
 
 [IMPORTANT]
 ====
-* Ensure that the runtime version is the same Mule version used to develop your application. For example, if you use the default value prod-3.5.0 and your application uses the new HTTP connector introduced in Mule 3.6 and newer, your application won't deploy and the log will contain errors.
-* To see what runtime version you set when you deployed your application, click the *Applications* tab and click your application. In the expansion view on the right, click *Manage Application*. Click *Settings* to see the deployment values.
+* Ensure that the runtime version is the same Mule version used to develop your application. For example, if you use the value 3.5.1 and your application uses the new HTTP connector introduced in Mule 3.6 and newer, your application won't deploy and the log will contain errors.
+* To see what runtime version was set on an aplication that was already deployed, select the *Applications* tab and click your application. In the expansion view on the right, click *Manage Application*. Click *Settings* to see the deployment values.
 ====
 
 === Worker Sizing
 
-After you deploy your application to CloudHub, you can allocate an amount and a size for the *Worker size* of your application. On each application, workers are responsible for executing your application logic.
+[NOTE]
+This in not required for applications deployed to servers on premises.
+
+You can allocate an amount and a size for the *Worker size* of your application on CloudHub. On each application, workers are responsible for executing your application logic.
 
 In CloudHub there are 5 different worker sizes to choose from, with the compute and memory capacities described in the following table:
 
@@ -112,6 +134,9 @@ When deploying an application with more than one worker, CloudHub automatically 
 
 === Region
 
+[NOTE]
+This in not required for applications deployed to servers on premises.
+
 If you have global deployment enabled on your account, you can change the *Region* to which your application deploys using the drop-down menu. Administrators can link:/anypoint-platform-administration/managing-cloudhub-specific-settings[set the default region] on the Organization tab in Account Settings, but that region can be adjusted here when the application is deployed, if necessary.
 
 * Note that applications deployed to Europe automatically have their domain updated to  `http://myapplicationdomain.eu.cloudhub.io`. 
@@ -123,6 +148,9 @@ Click the Secure data gateway chckbox if your application has a link:/cloudhub/s
 
 === Persistent Queues
 
+[NOTE]
+This in not available on applications deployed to servers on premises.
+
 Check this box to enable persistent queues on your application. Persistent queues protect against message loss and allow you to distribute workloads across a set of workers. Before you can take advantage of persistent queueing, your application needs to be set up to use queues. See link:/cloudhub/fabric[Fabric]  for more information.
 
 === Automatic Restart
@@ -133,9 +161,12 @@ Read more about worker monitoring.
 
 === Properties Tab
 
+[NOTE]
+This in not available on applications deployed to servers on premises.
+
 You can also optionally specify properties that your application requires. This allows you to externalize important pieces of configuration which may switch depending on the environment in which you're deploying. For example, if you're using a Mule application locally, you might configure your database host to be localhost. But if you're using CloudHub, you might configure it to be an Amazon RDS server.
 
-To create an application property, click the *Properties* tab and set the variable by either using a text  `key=value`  format or by using the list format with two text boxes. After you've made the change, click  *Apply Changes* . 
+To create an application property, click the *Properties* tab and set the variable by either using a text `key=value` format or by using the list format with two text boxes. After you've made the change, click  *Apply Changes* . 
 
 image:PropertiesTab.png[PropertiesTab]
 
@@ -155,48 +186,56 @@ Note that you can flag application properties as secure so that their values are
 
 === Insight Tab
 
+[NOTE]
+This in not available on applications deployed to servers on premises.
+
 The Insight tab lets you specify metadata options for the Insight analytics feature. For more information, see the link:/cloudhub/runtime-manager-insight[Insight] document.
 
 image:CHInsightTab.png[CHInsightTab]
 
 === Logging Tab
 
-The Logging tab lets you change the logging setting (INFO, DEBUG, WARN, or ERROR). For more information, see Viewing Log Data_OLD.
+[NOTE]
+This in not available on applications deployed to servers on premises.
+
+The Logging tab lets you change the logging setting (INFO, DEBUG, WARN, or ERROR). For more information, see link:/cloudhub/logs[Working with Logs].
 
 image:CHLoggingTab.png[CHLoggingTab]
 
-== CloudHub Deployment
 
-After you complete the above steps, click *Create* and CloudHub uploads your application and automatically begins the deployment process. During this process, your view is switched to the log view allowing you to monitor the process of your application deployment. This process could take several minutes. During the deployment, the application status indicator changes to yellow to indicate deployment in progress.
+== ARM Deployment
 
-When deployment is complete, the application status indicator changes to green and you are notified in the status area that the application has deployed successfully. Here's what is in the logs:
+After you complete the settings described above, click *Deploy Application* and ARM automatically begins the deployment process. If you're deploying to the cloud, it first uploads it. During this process, your view is switched to the log view allowing you to monitor the process of your application deployment. This process could take several minutes. During the deployment, the application status indicator changes to yellow to indicate deployment in progress.
+
+When deployment is complete, the application status indicator changes to green and you are notified in the status area that the application has deployed successfully.
+
+
+For the case of CloudHub applications, the following gets recorded on the logs:
 
 [source, code, linenums]
 ----
 Successfully deployed [mule application name]
 ----
 
-== Deploy to CloudHub from Anypoint Studio
+== Configuring a Deployed Application
 
-You can easily deploy your applications to CloudHub, straight from Anypoint Studio. This is specially helpful if you're still developing the application and want to deploy it often to an online test environment. To do this, left click on the application in the package explorer, select *Cloudhub* > *Deploy to CloudHub*.
+. In the Applications tab, click an application entry and select *Manage Application*:
++
+image:AMC_ManageApplication.png[AMC_ManageApplication] 
++
+. Click the *Settings* tab:
++
+image:ViewingDeployedApp.png[ViewingDeployedApp]
 
-image:CHDeployToCH.png[CHDeployToCH]
-
-If this is your first time deploying in this way, a popup menu asks you to provide your login credentials for CloudHub. Your credentials are then  stored and used automatically next time you deploy to CloudHub. You can manage these credentials through the Studio preferences menu, in *Anypoint Studio* > *Authentication*.
-
-image:studio+to+cloudhub3.png[studio+to+cloudhub3]
-
-Once you have signed in, the Deploy to CloudHub menu opens. Choose a unique domain to deploy the application to, an environment and a Mule Version, you can also assign environment variables.
-
-image:studio+to+cloudhub2.png[studio+to+cloudhub2]
 
 == Automatically Deploying a Proxy from the Anypoint Platform for APIs
 
-If you've registered an API in the Anypoint Platform, you can easily run it through an auto generated proxy to track its usage and implement policies. You can deploy this proxy to CloudHub without ever needing to go into the CloudHub section of the Anypoint platform. From a menu in the API version page, you can trigger the deployment of your proxy and set up the application name in CloudHub, the CloudHub environment and the Gateway version to use. Then, you can optionally access the CloudHub deployment menu for this proxy and configure advanced settings. link:/anypoint-platform-for-apis/proxying-your-api[Read More].
+If you've registered an API in the Anypoint Platform, you can easily run it through an link:/anypoint-platform-for-apis/walkthrough-proxy[
+auto generated proxy] to track its usage and implement link:/anypoint-platform-for-apis/applying-runtime-policies[policies]. You can deploy this proxy to the Runtime Manager without ever needing to go into the Runtime Manager section of the Anypoint platform. From a menu in the link:/anypoint-platform-for-apis/managing-api-versions[API version page], you can trigger the deployment of your proxy and set up the name it will have when deployed, the Gateway version to use and the CloudHub environment when deploying to the cloud. Then, you can optionally access the Runtime Manager deployment menu for this proxy and configure advanced settings. link:/anypoint-platform-for-apis/proxying-your-api[Read More].
 
 == Deployment Errors
 
-If an error occurs and the application cannot be deployed, the application status indicator changes to red. You are alerted in the status area that an error occurred. Please check the log details for any application deployment errors. You need to correct the error, upload the application, and deploy again.
+If an error occurs and the application cannot be deployed, the application status indicator changes to red. You are alerted in the status area that an error occurred. If you're deploying to CloudHub, you can check the log details for any application deployment errors. You need to correct the error, upload the application, and deploy again.
 
 == See Also
 

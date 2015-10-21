@@ -9,13 +9,10 @@
 *** link:/cloudhub/faq[ARM FAQ]
 // ARM on premise installation stuff could go here
 ** link:/cloudhub/applications[Applications]
-*** Deploying
-**** Cloud
-***** link:/cloudhub/developing-a-cloudhub-application[Developing a CloudHub Application]
-***** link:/cloudhub/deploying-a-cloudhub-application[Deploying a CloudHub Application]
-***** link:/cloudhub/fabric[Fabric]
-**** On-Prem
-// something similar to //cloudhub/managing-cloudhub-applications[Managing CloudHub]
+*** link:/cloudhub/deploying-an-application-to-arm[Deploying an Application to ARM]
+**** link:/cloudhub/developing-a-cloudhub-application[Developing a CloudHub Application]
+**** link:/cloudhub/fabric[Fabric]
+*** On-Prem
 *** link:/cloudhub/managing-applications-on-arm[Managing Applications on ARM]
 **** link:/cloudhub/cloudhub-console-overview[ARM Console Overview]
 **** link:/cloudhub/alerts-and-notifications[Alerts and Notifications]

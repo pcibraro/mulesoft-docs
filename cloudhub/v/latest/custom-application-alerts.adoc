@@ -60,7 +60,7 @@ If you always want to create notifications on CloudHub, even when running locall
 
 == Deploying Your Application
 
-To deploy your application, click Deploy Application from the Applications menu. For more information, see link:/cloudhub/deploying-a-cloudhub-application[Deploying a CloudHub Application].
+To deploy your application, click Deploy Application from the Applications menu. For more information, see link:/cloudhub/deploying-an-application-to-arm[Deploying an Application to ARM].
 
 == Triggering Your Notification
 

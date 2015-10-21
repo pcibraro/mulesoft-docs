@@ -48,7 +48,7 @@ Next to each application name, you can see an icon that represents the current s
 Click an application to show its overview menu, and click *Manage Applications* from the overview. This opens the dashboard where you can select one of the following menu options on the left:
 
 * link:/cloudhub/managing-application-data-with-object-stores[Application Data]
-* link:/cloudhub/deploying-a-cloudhub-application[Deployment]
+* link:/cloudhub/deploying-an-application-to-arm[Deploying an Application to ARM]
 * link:/cloudhub/runtime-manager-insight[Insight]
 * link:/cloudhub/viewing-log-data[Logs]
 * link:/cloudhub/alerts-and-notifications[Notifications]
