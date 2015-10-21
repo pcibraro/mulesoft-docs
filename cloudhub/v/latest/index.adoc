@@ -11,6 +11,8 @@ The Anypoint Platform Web interface allows you to manage your APIs, runtimes and
 
 Anypoint Runtime Manager allows you to integrate and manage applications and servers, whether on-premises or in the cloud. ARM lets you integrate SaaS applications, Cloud services, and Enterprise applications in real time. It provides a simple, intuitive graphical interface to interoperate with CloudHub, the world's first integration Platform as a Service (iPaaS), the engine for your Mule applications deployed to the cloud. CloudHub itself is built on top of Mule, the most widely used integration platform. Together with Anypoint Studio, ARM and CloudHub allow you to design, run, deploy and manage your integration application, as well as the servers, clusters and groups of your environment.
 
+:image:ARM_intro_diag.jpeg[Part of the Anypoint Platform development/management cycle]
+
 == Why ARM?
 
 === ARM + CloudHub: Start Small, Think Big
