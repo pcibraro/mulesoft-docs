@@ -1,6 +1,5 @@
-:keywords: cloudhub, cloudhub api, manage, cloud, enterprise, arm, runtime manager
-
 = Building an HTTPS Service
+:keywords: cloudhub, cloudhub api, manage, cloud, enterprise, arm, runtime manager
 
 CloudHub supports building HTTPS/SSL based services so you can be ensured of your data confidentiality. It is very easy to configure your service to support SSL.
 

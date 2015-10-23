@@ -1,6 +1,10 @@
 = Custom Application Alerts
 :keywords: cloudhub, monitoring, api, arm, runtime manager
 
+[NOTE]
+Setting up alerts is currently only supported for apps deployed to CloudHub. Apps deployed through ARM to on premises servers don't support this feature.
+
+
 == Prerequisites
 
 Before going further, complete the link:/cloudhub/hello-world-on-cloudhub[Hello World] example as this builds on top of it. In addition, you need to have "Mavenized" your project within Studio. For more information, see link:/mule-user-guide/v/3.7/using-maven-with-mule[Using Maven with Mule].
@@ -21,11 +25,11 @@ This example illustrates:
 * How to send errors as notifications
 * How to send email alerts when notifications arrive
 
-You can create alerts in CloudHub with the software provided. If you want to create custom alerts, you need to get the CloudHub Connector and install it in Anypoint Studio.
+You can create alerts in the Runtime Manager with the software provided. If you want to create custom alerts, you need to get the CloudHub Connector and install it in Anypoint Studio.
 
 == Installing the CloudHub Connector
 
-To create notifications from your application, get the https://www.mulesoft.com/exchange#!/cloudhub-integration-connector[CloudHub connector] from Anypoint Exchange. This connector allows you to create custom notifications inside your flows and inside your exception strategies.
+To create notifications from your application, get the link:https://www.mulesoft.com/exchange#!/cloudhub-integration-connector[CloudHub connector] from Anypoint Exchange. This connector allows you to create custom notifications inside your flows and inside your exception strategies.
 
 To access the CloudHub connector from Anypoint Studio, click *Help* > *Install New Software*. In *Work with*, click *Anypoint Connectors Update Site* and in the *Community* category, click *Mule CloudHub Connector Mule Studio Extension*. If this option is not listed, click *Help* > *Installation Details* and see if the connector was previously installed.
 
@@ -53,10 +57,10 @@ image:CHConfigCreds.png[CHConfigCreds]
 +
 image:CHConnectorSettings.png[CHConnectorSettings]
 +
-When your domain root is visited, the create-notification operation on the CloudHub connector creates a "Hello World!" notification message for the domain that the application is currently running on. When running on CloudHub, this connector authenticates automatically using a token from the environment so that it can be authenticated to post notifications to CloudHub. When running locally, this operation sends the message to the INFO log level.
+When your domain root is visited, the create-notification operation on the CloudHub connector creates a "Hello World!" notification message for the domain that the application is currently running on. When running on CloudHub, this connector authenticates automatically using a token from the environment so that it can be authenticated to post notifications to the Runtime Manager. When running locally, this operation sends the message to the INFO log level.
 
 [IMPORTANT]
-If you always want to create notifications on CloudHub, even when running locally, you can use the <create-notification/>. This requires you to configure the connector with your username and password when running locally.
+If you always want to create notifications on the Runtime Manager, even when running locally, you can use the <create-notification/>. This requires you to configure the connector with your username and password when running locally.
 
 == Deploying Your Application
 
@@ -64,7 +68,7 @@ To deploy your application, click Deploy Application from the Applications menu.
 
 == Triggering Your Notification
 
-Once your application is running, you can trigger the notification by simply going to your application's URL, for example: link:http://YOURAPP.cloudhub.io/hello-notification[http://YOURAPP.cloudhub.io/]. The page should display a `Hello World` message, and automatically create a new notification in your CloudHub console. Next, return to the CloudHub console and click the new notification indicator bell indicator in the upper-right to show the alert message:
+Once your application is running, you can trigger the notification by simply going to your application's URL, for example: link:http://YOURAPP.cloudhub.io/hello-notification[http://YOURAPP.cloudhub.io/]. The page should display a `Hello World` message, and automatically create a new notification in your CloudHub console. Next, return to the Runtime Manager console and click the new notification indicator bell indicator in the upper-right to show the alert message:
 
 image:image2014-10-24+17-41-16-1.png[image2014-10-24+17-41-16-1]
 
@@ -103,9 +107,9 @@ In addition to sending notifications from business events, you may want to send 
 </flow>
 ----
 
-This flow throws an exception and create a notification from that exception with the message "Error processing transaction." The exception stack trace for the flow is attached to the message. This can optionally be turned off using the attachStacktrace attribute.
+This flow throws an exception and creates a notification from that exception with the message "Error processing transaction." The exception stack trace for the flow is attached to the message. This can optionally be turned off using the attachStacktrace attribute.
 
-As before, build and deploy your application, and then go to the URL: `http://YOURAPP.cloudhub.io/create-notification-from-exception`. Then return to the CloudHub console, and a notification pop-up appears in the top-right. Click the notifications link and the notification with the stack trace appears in the notifications list.
+As before, build and deploy your application, and then go to the URL: `http://YOURAPP.cloudhub.io/create-notification-from-exception`. Then return to the Runtime Manager console, and a notification pop-up appears in the top-right. Click the notifications link and the notification with the stack trace appears in the notifications list.
 
 image:notifications_exception.png[notifications_exception]
 
