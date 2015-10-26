@@ -19,7 +19,7 @@ For more information, see link:http://blogs.mulesoft.org/introducing-integration
 
 === What is CloudHub?
 
-CloudHub is Anypoint Platform's integration platform as a service (iPaaS) solution, which enables developers to integrate and orchestrate applications and services without the need to install or manage middleware or hardware infrastructure. Within Anypoint Management Center, you access CloudHub deployments through the Runtime Manager. Since CloudHub is fully integrated with link:/mule-fundamentals/v/3.7/anypoint-studio-essentials[Anypoint Studio], you can directly deploy your Mule applications from Studio to CloudHub with just a few clicks. After deployment, your applications and servers run on CloudHub; you can manage them through the Runtime Manager.
+CloudHub is Anypoint Platform's integration platform as a service (iPaaS) solution, which enables developers to integrate and orchestrate applications and services without the need to install or manage middleware or hardware infrastructure. Within Anypoint Management Center, you access CloudHub deployments through the Runtime Manager. Since CloudHub is fully integrated with link:/mule-fundamentals/v/3.7/anypoint-studio-essentials[Anypoint Studio], you can directly deploy your Mule applications from Studio to CloudHub with just a few clicks. After deployment, your applications and servers run on CloudHub; you can manage them through Runtime Manager.
 
 For more details on CloudHub, read more about the CloudHub link:/cloudhub/runtime-manager-architecture[architecture].
 
@@ -67,7 +67,7 @@ Environment variables are properties you can set to pass in configuration to you
 
 === Can I deploy my application to a different region?
 
-Yes!  link:/cloudhub/community-and-support[File a support case] to enable global deployments for your account. CloudHub applications can be deployed to: US (East), US (West), Europe (Ireland), and Asia-Pacific (Sydney). Administrators can  link:/anypoint-platform-administration/managing-cloudhub-specific-settings[set the default region] on the Organization tab in Account Settings, but that region can be adjusted here when the application is deployed, if necessary.
+Yes! link:/cloudhub/community-and-support[File a support case] to enable global deployments for your account. CloudHub applications can be deployed to: US (East), US (West), Europe (Ireland), and Asia-Pacific (Sydney). Administrators can link:/anypoint-platform-administration/managing-cloudhub-specific-settings[set the default region] on the Organization tab in Account Settings, but that region can be adjusted here when the application is deployed, if necessary.
 
 Note that applications deployed to Europe  automatically have their domain updated to `http://myapplicationdomain.eu.cloudhub.io`. Similarly, applications deployed to Australia  automatically have their domain updated to `http://myapplicationdomain.au.cloudhub.io`. 
 
