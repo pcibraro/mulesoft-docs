@@ -1,7 +1,7 @@
 = Amazon RDS Support
 :keywords: cloudhub, security, arm, runtime manager
 
-You can easily integrate your CloudHub application with MySQL or Oracle using Amazon Relational Database Service (RDS). Refer to the link:http://aws.amazon.com/rds/[Amazon RDS documentation] to learn how to set up a new database.
+You can easily integrate an application that's deployed to CloudHub with MySQL or Oracle using Amazon Relational Database Service (RDS). Refer to the link:http://aws.amazon.com/rds/[Amazon RDS documentation] to learn how to set up a new database.
 
 Before using CloudHub with Amazon RDS, you must configure RDS security. This allows Mule to communicate with Amazon RDS. To configure RDS security:
 
@@ -16,4 +16,4 @@ image:aws-rds.png[aws-rds]
 
 * Click the Add button.
 
-You can now use the JDBC connector inside your CloudHub application with RDS.
+You can now use the JDBC connector inside your CloudHub deployed application with RDS.

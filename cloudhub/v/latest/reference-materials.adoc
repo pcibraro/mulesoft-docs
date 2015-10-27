@@ -2,6 +2,4 @@
 :keywords: cloudhub, reference, amazon, rds, twitter, twilio, salesforce, arm, runtime manager
 
 * link:/cloudhub/amazon-rds-support[Amazon RDS Support]
-* link:/cloudhub/configure-twitter-for-api-access[Configure Twitter for API Access]
-* link:/cloudhub/configure-twilio-for-api-access[Configure Twilio for API Access]
 * link:/cloudhub/salesforce-developer-account-setup[Salesforce Developer Account Setup]
