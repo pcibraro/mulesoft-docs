@@ -3,13 +3,17 @@
 
 == Overview
 
-=== The Anypoint Platform Interface
+=== Anypoint Runtime Manager, Part of Anypoint Management Center
 
-The Anypoint Platform Web interface allows you to manage your APIs, runtimes and integration applications from a single control point. From here you can access Anypoint Runtime Manager, Anypoint API Manager and Analytics. Together, these tools allow you to manage runtimes regardless of where they are deployed -- whether on-premises or in the cloud, or as an API gateway -- as well as deploy/undeploy applications, administer servers, view analytics data and more.
+Anypoint Management Center (AMC) is a Web interface that allows you to view and manage anything and everything that takes place across Anypoint Platform, whether it's on-premises or in the cloud. AMC is comprised of several management and visualization modules for APIs, servers, applications, deployments, and analytics data.
+
+In AMC, you access the different components of the Anypoint Platform by going into the module for each component, such as Anypoint API Manager, Anypoint Analytics or Anypoint Runtime Manager (ARM). AMC groups these modules together, providing a complete command and control center in a single point.
+
+You can sign up to access AMC online, or you can install AMC on-premises and host it in your private network. For more information including demos and contact details, see the link:https://www.mulesoft.com/platform/anypoint-management-center[AMC main page].
 
 === Anypoint Runtime Manager (ARM)
 
-Anypoint Runtime Manager, part of the Anypoint Platform graphical interface, allows you to integrate and manage applications and servers, whether on-premises or in the cloud. With ARM, you can integrate SaaS applications, Cloud services, and Enterprise applications in real time. ARM provides a simple, intuitive graphical interface to interoperate with CloudHub, the world's first integration Platform as a Service (iPaaS), the engine for your Mule applications deployed to the cloud. CloudHub itself is built on top of Mule, the most widely used integration platform. Together with Anypoint Studio, ARM and CloudHub allow you to design, run, deploy and manage your integration application, as well as the servers, clusters and groups of your environment.
+ARM is the AMC module that allows you to integrate and manage applications and servers, whether on-premises or in the cloud. With ARM, you can integrate SaaS applications, Cloud services, and Enterprise applications in real time. ARM provides a simple, intuitive graphical interface to interoperate with CloudHub, the world's first integration Platform as a Service (iPaaS), the engine for your Mule applications deployed to the cloud. CloudHub itself is built on top of Mule, the most widely used integration platform. Together with Anypoint Studio, ARM and CloudHub allow you to design, run, deploy and manage your integration application, as well as the servers, clusters and groups of your environment.
 
 :image:ARM_intro_diag.jpeg[Part of the Anypoint Platform development/management cycle]
 
