@@ -313,62 +313,62 @@ Create an API,Anypoint Platform for APIs,latest,walkthrough-intro-create.adoc,/a
 Manage Your API,Anypoint Platform for APIs,latest,walkthrough-manage.adoc,/anypoint-platform-for-apis/walkthrough-manage
 Create an API Notebook,Anypoint Platform for APIs,latest,walkthrough-notebook.adoc,/anypoint-platform-for-apis/walkthrough-notebook
 Create a Proxy for Your API,Anypoint Platform for APIs,latest,walkthrough-proxy.adoc,/anypoint-platform-for-apis/walkthrough-proxy
-Alerts and Notifications,CloudHub,latest,alerts-and-notifications.adoc,/cloudhub/alerts-and-notifications
-Amazon RDS Support,CloudHub,latest,amazon-rds-support.adoc,/cloudhub/amazon-rds-support
-Working with Applications,CloudHub,latest,applications.adoc,/cloudhub/applications
-Building an HTTPS Service,CloudHub,latest,building-an-https-service.adoc,/cloudhub/building-an-https-service
-Anypoint Platform Administration,CloudHub,latest,cloudhub-administration.adoc,/cloudhub/cloudhub-administration
-CloudHub API,CloudHub,latest,cloudhub-api.adoc,/cloudhub/cloudhub-api
-CloudHub Architecture,CloudHub,latest,runtime-manager-architecture.adoc,/cloudhub/runtime-manager-architecture
-CloudHub at a Glance,CloudHub,latest,cloudhub-at-a-glance.adoc,/cloudhub/cloudhub-at-a-glance
-CloudHub Console Overview,CloudHub,latest,arm-console-overview.adoc,/cloudhub/arm-console-overview
-Fabric,CloudHub,latest,fabric.adoc,/cloudhub/fabric
-Runtime Manager Insight,CloudHub,latest,runtime-manager-insight.adoc,/cloudhub/runtime-manager-insight
-CloudHub Networking Guide,CloudHub,latest,cloudhub-networking-guide.adoc,/cloudhub/cloudhub-networking-guide
-Command Line Tools,CloudHub,latest,command-line-tools.adoc,/cloudhub/command-line-tools
-CloudHub Community and Support,CloudHub,latest,community-and-support.adoc,/cloudhub/community-and-support
-Configure Twilio for API Access,CloudHub,latest,configure-twilio-for-api-access.adoc,/cloudhub/configure-twilio-for-api-access
-Configure Twitter for API Access,CloudHub,latest,configure-twitter-for-api-access.adoc,/cloudhub/configure-twitter-for-api-access
-Create Application,CloudHub,latest,create-application.adoc,/cloudhub/create-application
-Create Notification,CloudHub,latest,create-notification.adoc,/cloudhub/create-notification
-Creating and Managing Clusters,CloudHub,latest,creating-and-managing-clusters.adoc,/cloudhub/creating-and-managing-clusters
-Custom Application Alerts,CloudHub,latest,custom-application-alerts.adoc,/cloudhub/custom-application-alerts
-Delete an Application,CloudHub,latest,delete-application.adoc,/cloudhub/delete-application
-Deploy Application,CloudHub,latest,deploy-application.adoc,/cloudhub/deploy-application
-Deploying an Application to ARM,CloudHub,latest,deploying-an-application-to-arm.adoc,/cloudhub/eploying-an-application-to-arm
-Developing a CloudHub Application,CloudHub,latest,developing-a-cloudhub-application.adoc,/cloudhub/developing-a-cloudhub-application
-CloudHub FAQ,CloudHub,latest,faq.adoc,/cloudhub/faq
-Get an Application,CloudHub,latest,get-application.adoc,/cloudhub/get-application
-Getting Started with CloudHub,CloudHub,latest,getting-started-with-cloudhub.adoc,/cloudhub/getting-started-with-cloudhub
-Getting Started with Connectors,CloudHub,latest,getting-started-with-connectors.adoc,/cloudhub/getting-started-with-connectors
-Hello World on CloudHub,CloudHub,latest,hello-world-on-cloudhub.adoc,/cloudhub/hello-world-on-cloudhub
-Introducing CloudHub,CloudHub,latest,index.adoc,/cloudhub/index
-List All Applications,CloudHub,latest,list-all-applications.adoc,/cloudhub/list-all-applications
-List Log Messages,CloudHub,latest,list-all-logs.adoc,/cloudhub/list-all-logs
-List All Notifications,CloudHub,latest,list-notifications.adoc,/cloudhub/list-notifications
-Working with Logs,CloudHub,latest,logs.adoc,/cloudhub/logs
-Maintenance and Upgrade Policy,CloudHub,latest,maintenance-and-upgrade-policy.adoc,/cloudhub/maintenance-and-upgrade-policy
-Managing Application Data Storage with Object Stores,CloudHub,latest,managing-application-data-with-object-stores.adoc,/cloudhub/managing-application-data-with-object-stores
-Managing Applications and Servers in the Cloud and On Premises,CloudHub,latest,managing-applications-in-the-cloud-and-on-premises.adoc,/cloudhub/managing-applications-in-the-cloud-and-on-premises
-Managing CloudHub Applications,CloudHub,latest,managing-applications-on-arm.adoc,/cloudhub/managing-applications-on-arm
-Managing Queues,CloudHub,latest,managing-queues.adoc,/cloudhub/managing-queues
-Managing Schedules,CloudHub,latest,managing-schedules.adoc,/cloudhub/managing-schedules
-Mule Agent Architecture,CloudHub,latest,mule-agent-architecture.adoc,/cloudhub/mule-agent-architecture
-Mule and CloudHub ,CloudHub,latest,mule-esb-and-cloudhub.adoc,/cloudhub/mule-esb-and-cloudhub
-Working with Notifications,CloudHub,latest,notifications.adoc,/cloudhub/notifications
-Penetration Testing Policies,CloudHub,latest,penetration-testing-policies.adoc,/cloudhub/penetration-testing-policies
-Reference Materials,CloudHub,latest,reference-materials.adoc,/cloudhub/reference-materials
-Salesforce Developer Account Setup,CloudHub,latest,salesforce-developer-account-setup.adoc,/cloudhub/salesforce-developer-account-setup
-Secure Application Properties,CloudHub,latest,secure-application-properties.adoc,/cloudhub/secure-application-properties
-Secure Data Gateway,CloudHub,latest,secure-data-gateway.adoc,/cloudhub/secure-data-gateway
-The Mule Agent,CloudHub,latest,the-mule-agent.adoc,/cloudhub/the-mule-agent
-Tutorials,CloudHub,latest,tutorials.adoc,/cloudhub/tutorials
-Update All Notifications,CloudHub,latest,update-all-notifications.adoc,/cloudhub/update-all-notifications
-Update Application Metadata,CloudHub,latest,update-application-metadata.adoc,/cloudhub/update-application-metadata
-Update Application,CloudHub,latest,update-notification.adoc,/cloudhub/update-notification
-Viewing Log Data,CloudHub,latest,viewing-log-data.adoc,/cloudhub/viewing-log-data
-Virtual Private Cloud,CloudHub,latest,virtual-private-cloud.adoc,/cloudhub/virtual-private-cloud
-Worker Monitoring,CloudHub,latest,worker-monitoring.adoc,/cloudhub/worker-monitoring
+Alerts and Notifications,CloudHub,latest,alerts-and-notifications.adoc,/runtime-manager/alerts-and-notifications
+Amazon RDS Support,CloudHub,latest,amazon-rds-support.adoc,/runtime-manager/amazon-rds-support
+Working with Applications,CloudHub,latest,applications.adoc,/runtime-manager/applications
+Building an HTTPS Service,CloudHub,latest,building-an-https-service.adoc,/runtime-manager/building-an-https-service
+Anypoint Platform Administration,CloudHub,latest,cloudhub-administration.adoc,/runtime-manager/cloudhub-administration
+CloudHub API,CloudHub,latest,cloudhub-api.adoc,/runtime-manager/cloudhub-api
+CloudHub Architecture,CloudHub,latest,runtime-manager-architecture.adoc,/runtime-manager/runtime-manager-architecture
+CloudHub at a Glance,CloudHub,latest,cloudhub-at-a-glance.adoc,/runtime-manager/cloudhub-at-a-glance
+CloudHub Console Overview,CloudHub,latest,arm-console-overview.adoc,/runtime-manager/arm-console-overview
+Fabric,CloudHub,latest,fabric.adoc,/runtime-manager/fabric
+Runtime Manager Insight,CloudHub,latest,runtime-manager-insight.adoc,/runtime-manager/runtime-manager-insight
+CloudHub Networking Guide,CloudHub,latest,cloudhub-networking-guide.adoc,/runtime-manager/cloudhub-networking-guide
+Command Line Tools,CloudHub,latest,command-line-tools.adoc,/runtime-manager/command-line-tools
+CloudHub Community and Support,CloudHub,latest,community-and-support.adoc,/runtime-manager/community-and-support
+Configure Twilio for API Access,CloudHub,latest,configure-twilio-for-api-access.adoc,/runtime-manager/configure-twilio-for-api-access
+Configure Twitter for API Access,CloudHub,latest,configure-twitter-for-api-access.adoc,/runtime-manager/configure-twitter-for-api-access
+Create Application,CloudHub,latest,create-application.adoc,/runtime-manager/create-application
+Create Notification,CloudHub,latest,create-notification.adoc,/runtime-manager/create-notification
+Creating and Managing Clusters,CloudHub,latest,creating-and-managing-clusters.adoc,/runtime-manager/creating-and-managing-clusters
+Custom Application Alerts,CloudHub,latest,custom-application-alerts.adoc,/runtime-manager/custom-application-alerts
+Delete an Application,CloudHub,latest,delete-application.adoc,/runtime-manager/delete-application
+Deploy Application,CloudHub,latest,deploy-application.adoc,/runtime-manager/deploy-application
+Deploying an Application to ARM,CloudHub,latest,deploying-an-application-to-arm.adoc,/runtime-manager/eploying-an-application-to-arm
+Developing a CloudHub Application,CloudHub,latest,developing-a-cloudhub-application.adoc,/runtime-manager/developing-a-cloudhub-application
+CloudHub FAQ,CloudHub,latest,faq.adoc,/runtime-manager/faq
+Get an Application,CloudHub,latest,get-application.adoc,/runtime-manager/get-application
+Getting Started with CloudHub,CloudHub,latest,getting-started-with-cloudhub.adoc,/runtime-manager/getting-started-with-cloudhub
+Getting Started with Connectors,CloudHub,latest,getting-started-with-connectors.adoc,/runtime-manager/getting-started-with-connectors
+Hello World on CloudHub,CloudHub,latest,hello-world-on-cloudhub.adoc,/runtime-manager/hello-world-on-cloudhub
+Introducing CloudHub,CloudHub,latest,index.adoc,/runtime-manager/index
+List All Applications,CloudHub,latest,list-all-applications.adoc,/runtime-manager/list-all-applications
+List Log Messages,CloudHub,latest,list-all-logs.adoc,/runtime-manager/list-all-logs
+List All Notifications,CloudHub,latest,list-notifications.adoc,/runtime-manager/list-notifications
+Working with Logs,CloudHub,latest,logs.adoc,/runtime-manager/logs
+Maintenance and Upgrade Policy,CloudHub,latest,maintenance-and-upgrade-policy.adoc,/runtime-manager/maintenance-and-upgrade-policy
+Managing Application Data Storage with Object Stores,CloudHub,latest,managing-application-data-with-object-stores.adoc,/runtime-manager/managing-application-data-with-object-stores
+Managing Applications and Servers in the Cloud and On Premises,CloudHub,latest,managing-applications-in-the-cloud-and-on-premises.adoc,/runtime-manager/managing-applications-in-the-cloud-and-on-premises
+Managing CloudHub Applications,CloudHub,latest,managing-applications-on-arm.adoc,/runtime-manager/managing-applications-on-arm
+Managing Queues,CloudHub,latest,managing-queues.adoc,/runtime-manager/managing-queues
+Managing Schedules,CloudHub,latest,managing-schedules.adoc,/runtime-manager/managing-schedules
+Mule Agent Architecture,CloudHub,latest,mule-agent-architecture.adoc,/runtime-manager/mule-agent-architecture
+Mule and CloudHub ,CloudHub,latest,mule-esb-and-cloudhub.adoc,/runtime-manager/mule-esb-and-cloudhub
+Working with Notifications,CloudHub,latest,notifications.adoc,/runtime-manager/notifications
+Penetration Testing Policies,CloudHub,latest,penetration-testing-policies.adoc,/runtime-manager/penetration-testing-policies
+Reference Materials,CloudHub,latest,reference-materials.adoc,/runtime-manager/reference-materials
+Salesforce Developer Account Setup,CloudHub,latest,salesforce-developer-account-setup.adoc,/runtime-manager/salesforce-developer-account-setup
+Secure Application Properties,CloudHub,latest,secure-application-properties.adoc,/runtime-manager/secure-application-properties
+Secure Data Gateway,CloudHub,latest,secure-data-gateway.adoc,/runtime-manager/secure-data-gateway
+The Mule Agent,CloudHub,latest,the-mule-agent.adoc,/runtime-manager/the-mule-agent
+Tutorials,CloudHub,latest,tutorials.adoc,/runtime-manager/tutorials
+Update All Notifications,CloudHub,latest,update-all-notifications.adoc,/runtime-manager/update-all-notifications
+Update Application Metadata,CloudHub,latest,update-application-metadata.adoc,/runtime-manager/update-application-metadata
+Update Application,CloudHub,latest,update-notification.adoc,/runtime-manager/update-notification
+Viewing Log Data,CloudHub,latest,viewing-log-data.adoc,/runtime-manager/viewing-log-data
+Virtual Private Cloud,CloudHub,latest,virtual-private-cloud.adoc,/runtime-manager/virtual-private-cloud
+Worker Monitoring,CloudHub,latest,worker-monitoring.adoc,/runtime-manager/worker-monitoring
 Administration Service,Mule Agent,1.1.1,administration-service.adoc,/mule-agent/v/1.1.1/administration-service
 Configuring a Proxy for the Mule Agent,Mule Agent,1.1.1,configuring-a-proxy-for-the-mule-agent.adoc,/mule-agent/v/1.1.1/configuring-a-proxy-for-the-mule-agent
 Event Tracking,Mule Agent,1.1.1,event-tracking.adoc,/mule-agent/v/1.1.1/event-tracking

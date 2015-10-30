@@ -47,7 +47,7 @@ Your APIkit project or proxy application should be saved as a deployable zip fil
 . Select the name of your application from the *Project* drop-down, and click *Browse...* to select a destination for your application file. Click *Finish* .
 
 [TIP]
-If your organization has On Premises Auto-Deploy enabled, and you have already configured your API Gateway for Auto-deployment, then you can also deploy your applications on premises link:/cloudhub/managing-servers-on-premises[via the Anypoint Management Console].
+If your organization has On Premises Auto-Deploy enabled, and you have already configured your API Gateway for Auto-deployment, then you can also deploy your applications on premises link:/runtime-manager/managing-servers-on-premises[via the Anypoint Management Console].
 
 
 === Deploying to API Gateway
@@ -117,7 +117,7 @@ If you wish to update your application at runtime, you can drop a new .zip ver
 This procedure works with API Gateway 2.0 and above.
 
 
-. Register your server in Anypoint Management Center. To register your server, see the simplified instructions below, or the full instructions in the *Add a Server* section of link:/cloudhub/managing-servers-on-premises[Managing Servers On-Premises].
+. Register your server in Anypoint Management Center. To register your server, see the simplified instructions below, or the full instructions in the *Add a Server* section of link:/runtime-manager/managing-servers-on-premises[Managing Servers On-Premises].
 
 *Register a server*
 
@@ -260,7 +260,7 @@ If you wish to undeploy your application, go to the *Deployment* tab and click *
 If you wish to update your application at runtime, you can upload a new .zip file on the Deployment tab and click *Update*. The API Gateway will perform a zero downtime update using the new application file.
 
 [TIP]
-If you plan to expose your API through SSL, then there are a couple of link:/cloudhub/building-an-https-service[additional steps] you need to take.
+If you plan to expose your API through SSL, then there are a couple of link:/runtime-manager/building-an-https-service[additional steps] you need to take.
 
 
 ....
@@ -356,7 +356,7 @@ Now that you have deployed your API to a runtime, link:/anypoint-platform-for-ap
 
 [NOTE]
 
-If you plan to expose your API through SSL, then there are a couple of link:/cloudhub/building-an-https-service[additional steps] you need to take.
+If you plan to expose your API through SSL, then there are a couple of link:/runtime-manager/building-an-https-service[additional steps] you need to take.
 
 ....
 ------

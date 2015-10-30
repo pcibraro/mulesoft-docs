@@ -58,11 +58,11 @@ A self-contained component that allows you to integrate Mule applications with t
 [[cloudhub]]
 *CloudHub*
 
-Integration platform as a service that lets you manage applications in the cloud and manage clusters and servers located in your organization. For more information, see the link:/cloudhub/[CloudHub] documentation.
+Integration platform as a service that lets you manage applications in the cloud and manage clusters and servers located in your organization. For more information, see the link:/runtime-manager/[CloudHub] documentation.
 
 *cluster*
 
-A set of Mule instances that acts as, and can be managed as, a unit. A cluster is a virtual server composed of multiple nodes. You can manage cluster instances  link:/cloudhub/creating-and-managing-clusters[from the cloud].
+A set of Mule instances that acts as, and can be managed as, a unit. A cluster is a virtual server composed of multiple nodes. You can manage cluster instances  link:/runtime-manager/creating-and-managing-clusters[from the cloud].
 
 *component*
 

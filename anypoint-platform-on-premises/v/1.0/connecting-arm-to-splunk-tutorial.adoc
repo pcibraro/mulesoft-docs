@@ -99,7 +99,7 @@ image:arm_tutorial_event2.png[event]
 
 == Gateway Analytics Integration
 
-Before you can send API Analytics data to Splunk, you must configure your API Gateway installation accordingly. To do so, follow the steps in link:cloudhub/sending-data-from-arm-to-external-monitoring-software#configure-api-analytics[Configure API Gateway].
+Before you can send API Analytics data to Splunk, you must configure your API Gateway installation accordingly. To do so, follow the steps in link:/runtime-manager/sending-data-from-arm-to-external-monitoring-software#configure-api-analytics[Configure API Gateway].
 
 == Agent Configuration
 

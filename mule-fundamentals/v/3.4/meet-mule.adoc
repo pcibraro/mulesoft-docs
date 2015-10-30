@@ -51,7 +51,7 @@ A large and ever-expanding assortment of bundled and premium *link:/mule-user-g
 |image:mulesoft-database-customapp.png[mulesoft-database-customapp] |Publish your service definitions to the cloud-based service repository in the *link:/anypoint-platform-for-apis[Anypoint Platform for APIs]* to enable effective governance and support service reuse within your organization.
 2+|*Manage*
 |image:mmc.png[mmc] |The *link:/mule-management-console/v/3.4[Mule Management Console]* facilitates deployment to the Mule Repository and subsequent deployment to Mule clusters. It provides robust runtime management capabilities for on-premise deployments.
-|image:CH_insight.png[CH_insight] |*link:/cloudhub/runtime-manager-insight[Insight]* tracks everything your data does in an application deployed to CloudHub. Insight makes information searchable and helps you find and recover from any errors that occurred during message processing.
+|image:CH_insight.png[CH_insight] |*link:/runtime-manager/runtime-manager-insight[Insight]* tracks everything your data does in an application deployed to CloudHub. Insight makes information searchable and helps you find and recover from any errors that occurred during message processing.
 |image:AnypointAPI_manager.png[AnypointAPI_manager] |*link:/anypoint-platform-for-apis[Anypoint Platform for APIs]* is an API and service registry and governance platform. Built from the ground up to support hybrid use cases, the platform governs all of your service and API assets, whether they’re internal or external, behind the firewall or on the cloud, on a single platform. 
 |===
 
