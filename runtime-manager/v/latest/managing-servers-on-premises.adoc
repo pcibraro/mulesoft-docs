@@ -226,4 +226,4 @@ The following states appear in the *Status* column:
 == See Also
 
 * link:/cloudhub[CloudHub documentation]
-*  link:/runtime-manager/managing-applications-on-arm[Managing Applications on ARM]
+*  link:/runtime-manager/managing-applications-on-runtime-manager[Managing Applications on Runtime Manager]

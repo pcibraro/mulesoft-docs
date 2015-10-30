@@ -2,8 +2,8 @@
 
 
 * link:/runtime-manager/[Runtime Manager]
-** link:/runtime-manager/getting-started-with-cloudhub[Getting Started with ARM]
-*** link:/runtime-manager/cloudhub-at-a-glance[ARM at a Glance]
+** link:/runtime-manager/getting-started-with-runtime-manager[Getting Started with Runtime Manager]
+*** link:/runtime-manager/runtime-manager-at-a-glance[Runtime Manager at a Glance]
 *** link:/runtime-manager/community-and-support[CloudHub Community and Support]
 *** link:/runtime-manager/faq[ARM FAQ]
 ** link:/runtime-manager/tutorials[Tutorials]
@@ -13,12 +13,12 @@
 *** link:/runtime-manager/custom-application-alerts[Custom Application Alerts]
 // ARM on premise installation stuff could go here
 ** link:/runtime-manager/applications[Applications]
-*** link:/runtime-manager/deploying-an-application-to-arm[Deploying an Application to ARM]
+*** link:/runtime-manager/deploying-an-application-to-runtime-manager[Deploying an Application to Runtime Manager]
 **** link:/runtime-manager/developing-a-cloudhub-application[Developing a CloudHub Application]
 **** link:/runtime-manager/fabric[Fabric]
 *** On-Prem
-*** link:/runtime-manager/managing-applications-on-arm[Managing Applications on ARM]
-**** link:/runtime-manager/cloudhub-console-overview[ARM Console Overview]
+*** link:/runtime-manager/managing-applications-on-runtime-manager[Managing Applications on Runtime Manager]
+**** link:/runtime-manager/cloudhub-console-overview[Runtime Manager Console Overview]
 **** link:/runtime-manager/alerts-and-notifications[Alerts and Notifications]
 **** link:/runtime-manager/runtime-manager-insight[Runtime Manager Insight]
 **** link:/runtime-manager/viewing-log-data[Viewing Log Data]
@@ -36,7 +36,7 @@
 //agent stuff here? the entire tree
 ** link:/runtime-manager/runtime-manager-architecture[Runtime Manager Architecture]
 *** link:/runtime-manager/cloudhub-networking-guide[CloudHub Networking Guide]
-*** link:/runtime-manager/mule-esb-and-cloudhub[Mule and ARM]
+*** link:/runtime-manager/mule-and-runtime-manager[Mule and Runtime Manager]
 ** link:/runtime-manager/reference-materials[Reference Materials]
 *** link:/runtime-manager/amazon-rds-support[Amazon RDS Support]
 *** link:/runtime-manager/cloudhub-api[CloudHub API]

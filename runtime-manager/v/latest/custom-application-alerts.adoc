@@ -64,7 +64,7 @@ If you always want to create notifications on the Runtime Manager, even when run
 
 == Deploying Your Application
 
-To deploy your application, click Deploy Application from the Applications menu. For more information, see link:/runtime-manager/deploying-an-application-to-arm[Deploying an Application to ARM].
+To deploy your application, click Deploy Application from the Applications menu. For more information, see link:/runtime-manager/deploying-an-application-to-runtime-manager[Deploying an Application to Runtime Manager].
 
 == Triggering Your Notification
 

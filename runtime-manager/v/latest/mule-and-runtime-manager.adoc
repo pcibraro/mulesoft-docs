@@ -1,4 +1,4 @@
-= Mule ESB and CloudHub 
+= Mule and Runtime Manager 
 :keywords: mule, cloudhub, fabric, log, dns, object store, arm, runtime manager
 
 CloudHub and Mule ESB share the same runtimes, ensuring that building applications for both is easy. However, there are some differences as you move to the cloud. CloudHub provides more out of the box functionality, such as load balancing, and also has some limitations to which you may need to adapt your application. 
@@ -28,11 +28,11 @@ CloudHub does not guarantee that writing to disk  survives hardware failures. In
 
 Mule ESB offers high availability capabilities through the clustering of Mule instances with link:/mule-user-guide/v/3.6/mule-high-availability-ha-clusters[distributed shared memory]. This shared memory is used to provide persistent VM queues, transactions, and cluster-wide data storage.
 
-CloudHub provides high availability through link:/runtime-manager/fabric[Fabric].  Fabric provides a combination of load balancing, persistent message queues, and horizontal scaleout. In addition, the platform also actively monitors services and workers for problems. For example, in the case of hardware failure, CloudHub auto-migrates the application to a different worker using link:/runtime-manager/managing-applications-on-arm[Managing Applications on ARM], minimizing down time.
+CloudHub provides high availability through link:/runtime-manager/fabric[Fabric].  Fabric provides a combination of load balancing, persistent message queues, and horizontal scaleout. In addition, the platform also actively monitors services and workers for problems. For example, in the case of hardware failure, CloudHub auto-migrates the application to a different worker using link:/runtime-manager/managing-applications-on-runtime-manager[Managing Applications on Runtime Manager], minimizing down time.
 
 == Logging
 
-While on-premise applications can use custom log4j properties files, ARM provides a logging service for allowing logs to be searched, downloaded, or log levels to be customized.
+While on-premise applications can use custom log4j properties files, Runtime Manager provides a logging service for allowing logs to be searched, downloaded, or log levels to be customized.
 
 == ObjectStore
 

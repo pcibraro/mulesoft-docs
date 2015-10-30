@@ -1,15 +1,15 @@
-= ARM at a Glance
+= Runtime Manager at a Glance
 :keywords: cloudhub, cloud, api, arm, runtime manager
 
-Before getting started with ARM and CloudHub, it's important to understand some basic concepts. After this short overview, you can build your first CloudHub integration with the link:/runtime-manager/hello-world-on-cloudhub[Hello World on CloudHub] tutorial!
+Before getting started with Runtime Manager and CloudHub, it's important to understand some basic concepts. After this short overview, you can build your first CloudHub integration with the link:/runtime-manager/hello-world-on-cloudhub[Hello World on CloudHub] tutorial!
 
-== ARM and CloudHub
+== Runtime Manager and CloudHub
 
 Anypoint Runtime Manager includes the deployment and server management functionality provided by the Anypoint Platform, and allows you to manage servers and applications via Anypoint's graphical interface. CloudHub is a cloud-based integration platform as a service (iPaaS) -- the platform where the integration services are deployed. You use ARM to manage applications on CloudHub.
 
-== ARM and Anypoint Studio
+== Runtime Manager and Anypoint Studio
 
-ARM allows you to deploy sophisticated cross-cloud integration applications, create new APIs on top of existing data sources, integrate on-premise applications with cloud services, and much more. With Anypoint Studio – the user-friendly development tool – you can quickly build these integration applications and deploy to the cloud with just a few clicks. This guide helps you learn the basics and get started developing your first applications.
+Runtime Manager allows you to deploy sophisticated cross-cloud integration applications, create new APIs on top of existing data sources, integrate on-premise applications with cloud services, and much more. With Anypoint Studio – the user-friendly development tool – you can quickly build these integration applications and deploy to the cloud with just a few clicks. This guide helps you learn the basics and get started developing your first applications.
 
 
 == Mule Flows
@@ -43,9 +43,9 @@ While Anypoint DataMapper is technically a message processor, it deserves specia
 
 == Applications
 
-Flows are packaged into applications, and then deployed via ARM to CloudHub. It's nearly an automated process from within Mule Studio, as Anypoint Studio handles the packaging and upload of your application. You can build, deploy and run your integration without ever leaving Anypoint Studio.
+Flows are packaged into applications, and then deployed via Runtime Manager to CloudHub. It's nearly an automated process from within Mule Studio, as Anypoint Studio handles the packaging and upload of your application. You can build, deploy and run your integration without ever leaving Anypoint Studio.
 
-== Managing Applications and Servers in ARM
+== Managing Applications and Servers in Runtime Manager
 
 Once your application is deployed to CloudHub's multi-tenant runtime, you can link:http://anypoint.mulesoft.com[log in] to the Anypoint Platform, and then go to the Runtime Manager. It allows you to triage problems, view logs, set up alerts, view dashboards, and more. Follow the simple steps in the link:/runtime-manager/hello-world-on-cloudhub[Hello World] tutorial to setup your free Anypoint Platform account.
 
@@ -55,5 +55,5 @@ Now that you understand the basics, you're ready to build your first CloudHub in
 
 You can also obtain more information about CloudHub and Anypoint Studio here:
 
-* link:/runtime-manager/managing-applications-on-arm[Managing Applications on ARM]
+* link:/runtime-manager/managing-applications-on-runtime-manager[Managing Applications on Runtime Manager]
 * link:/mule-fundamentals/v/3.7/elements-in-a-mule-flow[Elements in a Mule Flow]

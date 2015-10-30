@@ -1,4 +1,4 @@
-= Deploying an Application to ARM
+= Deploying an Application to Runtime Manager
 :keywords: cloudhub, cloud, deploy, manage, arm, runtime manager
 
 There are two ways you can deploy a Mule application to the Anypoint Runtime Manager (ARM):
@@ -28,7 +28,7 @@ If you wish to deploy your application to a server on premises, you must first r
 image:DeployAppFirstScreen.png[DeployAppFirstScreen] 
 
 
-== Deploy to ARM from Anypoint Studio
+== Deploy to Runtime Manager from Anypoint Studio
 
 You can easily deploy your applications to the Runtime Manager, straight from Anypoint Studio. This is specially helpful if you're still developing the application and want to deploy it often to an online test environment. To do this, left click on the application in the package explorer, select *Deploy to Anypoint Platform*.
 
@@ -51,7 +51,7 @@ When deploying through the Anypoint Platform or Anypoint Studio, you're presente
 
 === Deployment Target
 
-ARM lets you specify where you want to deploy your application:
+The Runtime Manager lets you specify where you want to deploy your application:
 
 * On the CloudHub worker cloud
 * On an on-premises server, server group, or cluster
@@ -258,4 +258,4 @@ If an error occurs and the application cannot be deployed, the application statu
 == See Also
 
 * You can also deploy applications directly from link:/runtime-manager/hello-world-on-cloudhub[Anypoint Studio] or the link:/runtime-manager/command-line-tools[Command Line Tools]. A complete set of link:/runtime-manager/cloudhub-api[REST APIs] are also available for deployment.
-* link:/runtime-manager/managing-applications-on-arm[Managing Applications on ARM] contains more information on how to manage your CloudHub application, make changes, scale workers, and perform other application management tasks.
+* link:/runtime-manager/managing-applications-on-runtime-manager[Managing Applications on Runtime Manager] contains more information on how to manage your CloudHub application, make changes, scale workers, and perform other application management tasks.

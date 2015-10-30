@@ -44,4 +44,4 @@ You will see a dashboard like the one below:
 
 image:ManageAppDashboard.png[ManageAppDashboard]
 
-For more information about these features, see the link:/runtime-manager/managing-applications-on-arm[Managing Applications on ARM] page.
+For more information about these features, see the link:/runtime-manager/managing-applications-on-runtime-manager[Managing Applications on Runtime Manager] page.

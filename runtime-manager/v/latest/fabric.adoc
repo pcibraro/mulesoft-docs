@@ -8,20 +8,20 @@ You can <<Enabling Fabric Features, Enable Fabric Features>> on a per-applicatio
 
 == Prerequisites
 
-Fabric requires an Anypoint Platform Enterprise or Partner account type. This document assumes that you have a link:http://www.mulesoft.com/cloudhub-plans-pricing[one of those account types] and that you are familiar with link:/runtime-manager/deploying-an-application-to-arm[deploying applications using the Runtime Manager console]. 
+Fabric requires an Anypoint Platform Enterprise or Partner account type. This document assumes that you have a link:http://www.mulesoft.com/cloudhub-plans-pricing[one of those account types] and that you are familiar with link:/runtime-manager/deploying-an-application-to-runtime-manager[deploying applications using the Runtime Manager console]. 
 
 == Worker Scaleout
 
 The Runtime Manager allows you to select an amount and a size for the *workers* of your application, providing horizontal scalability. This fine-grained control over computing capacity provisioning gives you the flexibility to scale up your application to handle higher loads (or scale down during low-load periods) at any time.
 
 [TIP]
-For specs and details about each of the worker sizes see the *Worker Sizing* section of link:/runtime-manager/deploying-an-application-to-arm[Deploying an Application to ARM]
+For specs and details about each of the worker sizes see the *Worker Sizing* section of link:/runtime-manager/deploying-an-application-to-runtime-manager[Deploying an Application to Runtime Manager]
 
 Use the drop-down menus next to *workers* to pick the amount and a size for the workers of your application and configure the computing power that you need. 
 
 image:WorkerSizeQuantity.png[WorkerSizeQuantity]
 
-Each application can be deployed with up to 4 workers of any kind. However, you may be limited to fewer vCores than those you need, based on how many are available in your subscription. See link:/runtime-manager/deploying-an-application-to-arm[Worker Sizing] for more information about deploying to multiple vCores.
+Each application can be deployed with up to 4 workers of any kind. However, you may be limited to fewer vCores than those you need, based on how many are available in your subscription. See link:/runtime-manager/deploying-an-application-to-runtime-manager[Worker Sizing] for more information about deploying to multiple vCores.
 
 Worker scale out also adds additional reliability. MuleSoft automatically distributes multiple workers for the same application across two or more datacenters for maximum reliability.
 

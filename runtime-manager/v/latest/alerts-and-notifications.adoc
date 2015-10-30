@@ -94,4 +94,4 @@ The following properties are available and can be used in the alert Email to, Su
 == See Also
 
 * Check out the link:/runtime-manager/custom-application-alerts[Custom Application Alerts] tutorial.
-* Read more about link:/runtime-manager/managing-applications-on-arm[Managing Applications on ARM].
+* Read more about link:/runtime-manager/managing-applications-on-runtime-manager[Managing Applications on Runtime Manager].

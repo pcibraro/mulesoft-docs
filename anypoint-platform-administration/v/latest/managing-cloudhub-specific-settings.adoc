@@ -63,7 +63,7 @@ image:SubscriptionLevel.png[SubscriptionLevel]
 [NOTE]
 *The Number of Workers Is Not the Same as the Number of Applications* +
  +
-Note that there is not a 1:1 relationship between workers and applications. For more information on Worker Sizing, see link:/runtime-manager/fabric[Fabric] and link:/runtime-manager/deploying-an-application-to-arm[Deploying an Application to ARM].
+Note that there is not a 1:1 relationship between workers and applications. For more information on Worker Sizing, see link:/runtime-manager/fabric[Fabric] and link:/runtime-manager/deploying-an-application-to-runtime-manager[Deploying an Application to Runtime Manager].
 
 == Changing Your Plan
 
@@ -72,5 +72,5 @@ To change your plan, you can contact your account representative or file a suppo
 == See Also
 
 * For more on managing environments see link:/anypoint-platform-administration/managing-cloudhub-environments[Managing CloudHub Environments].
-* Learn more about link:/runtime-manager/deploying-an-application-to-arm[Deploying an Application to ARM].
+* Learn more about link:/runtime-manager/deploying-an-application-to-runtime-manager[Deploying an Application to Runtime Manager].
 * Review the CloudHub link:http://www.mulesoft.com/cloudhub/pricing[plans and pricing].

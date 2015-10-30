@@ -1,4 +1,4 @@
-= Managing Applications on ARM
+= Managing Applications on Runtime Manager
 :keywords: cloudhub, managing, monitoring, deploy, arm, runtime manager
 
 After you deploy an application to either Mule ESB on premises, or to CloudHub, you can use the Anypoint Runtime Manager (ARM) to monitor and manage your application. This page introduces basic management tools in the console for stopping, updating, and restarting your application. See the additional topics below for information about the console's runtime management tools. 
@@ -28,7 +28,7 @@ Administrators can link:/anypoint-platform-administration/managing-cloudhub-spe
 [NOTE]
 Only for applications deployed to CloudHub
 
-You can dynamically scale your applications by selecting options from the *Worker size* drop-down menu, and clicking the *Apply Changes* button. Your application uses the worker size and amount that you specify. For more information about deploying to multiple workers, see link:/runtime-manager/deploying-an-application-to-arm[Deploying an Application to ARM].
+You can dynamically scale your applications by selecting options from the *Worker size* drop-down menu, and clicking the *Apply Changes* button. Your application uses the worker size and amount that you specify. For more information about deploying to multiple workers, see link:/runtime-manager/deploying-an-application-to-runtime-manager[Deploying an Application to Runtime Manager].
 
 image:WorkerSize.png[WorkerSize]
 
@@ -37,7 +37,7 @@ All applications are limited by default to no more than four workers of any size
 
 == Updating Environment Variables and Application Properties
 
-You can configure environment variables for your application through ARM. This allows you to externalize important pieces of configuration which may switch depending on the environment in which you're deploying. For example, if you deploy a Mule application on premises, you might configure your database host to be `0.0.0.0`. But if you deploy it to CloudHub, you might configure it to be an Amazon RDS server.
+You can configure environment variables for your application through the Runtime Manager. This allows you to externalize important pieces of configuration which may switch depending on the environment in which you're deploying. For example, if you deploy a Mule application on premises, you might configure your database host to be `0.0.0.0`. But if you deploy it to CloudHub, you might configure it to be an Amazon RDS server.
 
 To create an environment variable or application property, click *Settings* > *Properties* and set the variable by either using a text `key=value` format or by using the list format with two text boxes. After you've made the change, click *Apply changes*. Here's an example using the text format:
 
@@ -131,7 +131,7 @@ CloudHub specifies this port for you and automatically load-balances your domain
 
 Additional tools for managing your applications:
 
-* link:/runtime-manager/arm-console-overview[ARM Console Overview]
+* link:/runtime-manager/arm-console-overview[Runtime Manager Console Overview]
 * link:/runtime-manager/managing-applications-and-servers-in-the-cloud-and-on-premises[Managing Applications and Servers in the Cloud and On Premises]
 * link:/runtime-manager/cloudhub-administration[CloudHub Administration]
 * link:/runtime-manager/alerts-and-notifications[Alerts and Notifications]

@@ -7,7 +7,7 @@ Monitoring is enabled by default on all applications deployed to runtimes. (Appl
 
 == Prerequisites
 
-This document assumes that you are familiar with link:/runtime-manager/deploying-an-application-to-arm[Deploying Applications to ARM] and that you are deploying for a runtime version newer than 3.4.0. 
+This document assumes that you are familiar with link:/runtime-manager/deploying-an-application-to-runtime-manager[Deploying Applications to Runtime Manager] and that you are deploying for a runtime version newer than 3.4.0. 
 
 == Enabling Automatic Restarts
 

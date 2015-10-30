@@ -54,4 +54,4 @@ Note that when moving applications between link:/anypoint-platform-administratio
 == See Also
 
 * Read more about link:/runtime-manager/developing-a-cloudhub-application[developing applications] for CloudHub.
-* Read more about link:/runtime-manager/deploying-an-application-to-arm[Deploying an Application to ARM]
+* Read more about link:/runtime-manager/deploying-an-application-to-runtime-manager[Deploying an Application to Runtime Manager]
