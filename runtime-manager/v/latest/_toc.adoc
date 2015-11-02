@@ -1,17 +1,16 @@
-// ALTERNATIVE ARM TOC File
+// ALTERNATIVE Runtime Manager TOC File
 
 
 * link:/runtime-manager/[Runtime Manager]
 ** link:/runtime-manager/getting-started-with-runtime-manager[Getting Started with Runtime Manager]
 *** link:/runtime-manager/runtime-manager-at-a-glance[Runtime Manager at a Glance]
 *** link:/runtime-manager/community-and-support[CloudHub Community and Support]
-*** link:/runtime-manager/faq[ARM FAQ]
+*** link:/runtime-manager/faq[Runtime Manager FAQ]
 ** link:/runtime-manager/tutorials[Tutorials]
 *** link:/runtime-manager/hello-world-on-cloudhub[Hello World on CloudHub]
 *** link:/runtime-manager/getting-started-with-connectors[Getting Started with Connectors]
 *** link:/runtime-manager/building-an-https-service[Building an HTTPS Service]
 *** link:/runtime-manager/custom-application-alerts[Custom Application Alerts]
-// ARM on premise installation stuff could go here
 ** link:/runtime-manager/applications[Applications]
 *** link:/runtime-manager/deploying-an-application-to-runtime-manager[Deploying an Application to Runtime Manager]
 **** link:/runtime-manager/developing-a-cloudhub-application[Developing a CloudHub Application]

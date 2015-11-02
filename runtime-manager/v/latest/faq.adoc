@@ -9,7 +9,7 @@ The Anypoint Platform Web interface allows you to manage your APIs, runtimes and
 
 === What is Anypoint Runtime Manager?
 
-ARM is a part of the Anypoint Platform Web admin interface. It allows you to manage application deployments, servers, clusters, and groups, regardless of whether they are deployed on-premises or in the cloud.
+Runtime Manager is a part of the Anypoint Platform Web admin interface. It allows you to manage application deployments, servers, clusters, and groups, regardless of whether they are deployed on-premises or in the cloud.
 
 === What is an iPaaS?
 
