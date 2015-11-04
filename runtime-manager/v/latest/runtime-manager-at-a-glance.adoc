@@ -1,16 +1,15 @@
 = Runtime Manager at a Glance
 :keywords: cloudhub, cloud, api, arm, runtime manager
 
-Before getting started with Runtime Manager and CloudHub, it's important to understand some basic concepts. After this short overview, you can build your first CloudHub integration with the link:/runtime-manager/hello-world-on-cloudhub[Hello World on CloudHub] tutorial!
+Before getting started with Runtime Manager and CloudHub, it's important to understand some basic concepts. After this short overview, you can build your first CloudHub integration with the link:/runtime-manager/hello-world-on-cloudhub[Hello World on CloudHub] tutorial.
 
 == Runtime Manager and CloudHub
 
-Anypoint Runtime Manager includes the deployment and server management functionality provided by the Anypoint Platform, and allows you to manage servers and applications via Anypoint's graphical interface. CloudHub is a cloud-based integration platform as a service (iPaaS) -- the platform where the integration services are deployed. You use ARM to manage applications on CloudHub.
+Anypoint Runtime Manager, part of Anypoint Management Center, provides a graphical interface for deploying and managing servers on the Anypoint Platform. Depending on your environment, some or all of these servers can be on-premises or on CloudHub. CloudHub is a cloud-based integration platform as a service (iPaas). It is the platform where the integration services are deployed.
 
 == Runtime Manager and Anypoint Studio
 
 Runtime Manager allows you to deploy sophisticated cross-cloud integration applications, create new APIs on top of existing data sources, integrate on-premise applications with cloud services, and much more. With Anypoint Studio – the user-friendly development tool – you can quickly build these integration applications and deploy to the cloud with just a few clicks. This guide helps you learn the basics and get started developing your first applications.
-
 
 == Mule Flows
 
